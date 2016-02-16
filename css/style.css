@@ -1,4 +1,8 @@
 /*
+#E6001B
+#C70019
+*/
+/*
 Theme Name: eyaka
 Theme URI: http://www.eyaka.be
 Author: eyaka
@@ -362,7 +366,8 @@ a {
     text-decoration: underline; }
   /* line 16, sass/partials/_elements.scss */
   a:visited {
-    color: #2b768b; }
+    color: #2b768b; 
+}
 
 /* line 21, sass/partials/_elements.scss */
 strong {
@@ -439,7 +444,7 @@ blockquote {
   /* line 28, sass/partials/_header.scss */
   .page__headerNavigation .current-menu-item a,
   .page__headerNavigation a:hover {
-    border-bottom-color: #2b768b; }
+    border-bottom-color: #C70019; }
 
 /* line 33, sass/partials/_header.scss */
 .headerBranding {
@@ -3779,13 +3784,14 @@ h1, h2, h3, h4, h5, h6 {
     /* line 55, sass/partials/pages/_events.scss */
     .events__asideArticle a:hover .events__asideArticleTitle,
     .events__asideArticle a.active .events__asideArticleTitle {
-      background-color: #2b768b;
+      background-color: #C70019;
       color: white; }
     /* line 59, sass/partials/pages/_events.scss */
     .events__asideArticle a:hover .eventsAsideArticlePlus,
     .events__asideArticle a.active .eventsAsideArticlePlus {
-      color: white;
-      background-color: #2B768B; }
+      color: #C70019;
+   /*   background-color: #2B768B; */
+  }
 
 /* line 65, sass/partials/pages/_events.scss */
 .events__asideArticleTitle {
@@ -4075,8 +4081,8 @@ h1, h2, h3, h4, h5, h6 {
   top: -47px;
   height: 100px;
   display: block;
-  background-color: #2b768b;
-  border-bottom: 5px solid #055c7b;
+  background-color: #C70019;
+  border-bottom: 5px solid #C70019;
   text-align: center;
   color: white; }
   /* line 75, sass/partials/pages/_home.scss */
