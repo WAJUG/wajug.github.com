@@ -3885,25 +3885,21 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 1rem; }
   /* line 120, sass/partials/pages/_events.scss */
   .events__authorSocialMedia i {
-    font-size: 20px;
-    font-size: 2rem; }
+/*    font-size: 20px;
+    font-size: 2rem; */
+}
 
 /* line 124, sass/partials/pages/_events.scss */
-.events__authorSocialMediaLink {
-  padding: 7px 10px;
-  padding: 0.7rem 1rem;
-  color: #31849b;
-  border-radius: 10px;
-  background-color: white;
-  box-shadow: 6px 7px 8px -6px rgba(0, 0, 0, 0.3);
-  -webkit-transition: 0.2s ease background-color;
-  -moz-transition: 0.2s ease background-color;
-  -o-transition: 0.2s ease background-color;
-  transition: 0.2s ease background-color; }
+.events__authorSocialMediaLink:visited {
+    color: gray;
+}
+.events__authorSocialMediaLink:link {
+    color: gray;
+}
   /* line 132, sass/partials/pages/_events.scss */
   .events__authorSocialMediaLink:hover {
-    background-color: #2f353a;
-    color: white; }
+    color: black; 
+}
 
 /* line 138, sass/partials/pages/_events.scss */
 .events__moreInfos {
@@ -4207,21 +4203,22 @@ h1, h2, h3, h4, h5, h6 {
   height: 100px;
   width: 100px;
   text-align: center;
-  background: url("/img/orator-bg.png") no-repeat center center transparent;
-  background-size: cover; }
+}
   /* line 185, sass/partials/pages/_home.scss */
   .home__socialMediaLink:hover i {
-    color: #2F353A; }
+    color: #C70019; 
+}
   /* line 189, sass/partials/pages/_home.scss */
   .home__socialMediaLink i {
     font-size: 60px;
     font-size: 6rem;
     line-height: 1.7;
-    color: white;
+    color: black;
     -webkit-transition: 0.2s ease color;
     -moz-transition: 0.2s ease color;
     -o-transition: 0.2s ease color;
-    transition: 0.2s ease color; }
+    transition: 0.2s ease color; 
+}
 
 @media (max-width: 960px) {
   /* line 202, sass/partials/pages/_home.scss */
