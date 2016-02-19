@@ -11,12 +11,16 @@
                         </h1>
                     </div>
                     <nav role="navigation" class="page__headerNavigation ">
-                        <div class="menu-menu-mobile-container"><ul id="menu-menu-mobile" class="mobile-menu"><li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item menu-item-176"><a href="/">Accueil</a></li>
-<li id="menu-item-174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a href="/events.html">Evènements</a></li>
-<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173"><a href="/kids/">Special enfants</a></li>
-<li id="menu-item-172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a href="/sponsoring/">Sponsoring</a></li>
-<li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="/contact/">Contact</a></li>
-</ul></div>                    </nav>
+                        <div class="menu-menu-mobile-container">
+							<ul id="menu-menu-mobile" class="mobile-menu">
+								<li {% if '/index.html' == page.url %}class="current-menu-item"{% endif %}><a href="/">Accueil</a></li>
+								<li {% if '/events.html' == page.url %}class="current-menu-item"{% endif %}><a href="/events.html">Evènements</a></li>
+								<li {% if '/d4k.html' == page.url %}class="current-menu-item"{% endif %}><a href="/d4k.html">Spécial enfants</a></li>
+								<li {% if '/sponsoring.html' == page.url %}class="current-menu-item"{% endif %}><a href="/sponsoring.html">Sponsoring</a></li>
+								<li {% if '/contact.html' == page.url %}class="current-menu-item"{% endif %}><a href="/contact.html">Contact</a></li>
+							</ul>
+						</div>                    
+					</nav>
                     <ul class="events__authorSocialsMedia" style="top: -30px">
 							<li class="events__authorSocialMedia">
                                 <a class="events__authorSocialMediaLink" href="http://meetup.com/wajug-be/">
