@@ -20,31 +20,33 @@ layout: default
             <h2 class="home__eventsTitle page__title">
                 Prochainement …
             </h2>
+				{% for post in site.posts %}
                 <article class="home__event">
                     <div class="home__eventLeft">
                         <time class="home__eventTime">
-                            <span>date</span>
+                            <span>{{ post.date }}</span>
                             <span>heure</span>
                         </time>
                         <span class="home__eventauthor">
-                            nom_orateur
+                            {{ post.author }}
                         </span>
 
                     </div>
                     <div class="home__eventRight">
                         <h1 class="home__eventTitle">
-                            title
+                            {{ post.title }}
                         </h1>
                         <div class="home__eventDesc">
                             intro_homepage
                         </div>
-                        <a href="" class="home__eventLink">
+                        <a href="{{ post.url }}" class="home__eventLink">
                             Lire la suite
                         </a>
                     </div>
                 </article>
-                    </div>
-    </div>
+	  			{% endfor %}
+         </div>
+	</div>
 
     <div class="home__about">
         <div class="wrap">
