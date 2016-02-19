@@ -24,8 +24,8 @@ layout: default
                 <article class="home__event">
                     <div class="home__eventLeft">
                         <time class="home__eventTime">
-                            <span>{{ post.date }}</span>
-                            <span>heure</span>
+                            <span>{{ post.date | date: "%-d %B %Y" }}</span>
+                            <span>{{ post.date | date: "%H:%M" }}</span>
                         </time>
                         <span class="home__eventauthor">
                             {{ post.author }}
