@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Smartwatch Landscape"
+title:  "Developing for smartwatches"
 date:   2016-04-28 18:30
 author:	Sébastien A. & Said E.
 categories: talk
