@@ -9,8 +9,11 @@ layout: default
     <div class="home__hero ie8-background-size" style="background-image: url(/img/home__hero.jpg)">
         <div class="wrap table">
             <p class="wrap table-cell">
-                WAJUG est votre groupe d'utilisateurs local, Wallon,   abordant "tout ce qui touche au logiciel". <br> <br> Tout ceci dans une ambiance fun, amicale, ouverte et typiquement wallonne.                <br><br>
+                WAJUG est votre groupe d'utilisateurs local, Wallon,   abordant "tout ce qui touche au développement logiciel". <br> <br> Tout ceci dans une ambiance fun, amicale, ouverte et typiquement wallonne.                
+				<!--
+				<br><br>
                 <a href="#" class="btn">Plus d'info</a>
+					-->
             </p>
         </div>
     </div>
@@ -37,7 +40,7 @@ layout: default
                             {{ post.title }}
                         </h1>
                         <div class="home__eventDesc">
-                            intro_homepage
+                        	{{ post.excerpt | strip_html | truncatewords:35 }}
                         </div>
                         <a href="{{ post.url }}" class="home__eventLink">
                             Lire la suite
