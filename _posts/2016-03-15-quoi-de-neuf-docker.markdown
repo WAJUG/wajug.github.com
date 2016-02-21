@@ -3,10 +3,11 @@ layout: post
 title:  "Quoi de neuf, Docker?"
 date:   2016-03-15 18:30
 author:	Gildas C. & Julien G.G.
-categories: jekyll update
+categories: talk
 ---
 ##1er talk de la soirée, par Gildas
-Docker ? La nouvelle révolution de l’IT ? En tout cas, tout le monde en parle, mais pourquoi ?
+Docker ? La nouvelle révolution de l’IT ? 
+En tout cas, tout le monde en parle, mais pourquoi ?
 En une heure, je vais tenter de vous expliquer ce qu’est Docker, à quel problème il répond, et comment il fonctionne.
 Et comme il n’existe rien de mieux qu’une démonstration pour bien comprendre, je présenterai le déploiement d'un petit projet Java dans le cloud avec Docker.
 

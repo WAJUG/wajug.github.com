@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-02-13 20:54:20
 author:	Jekyll
-categories: jekyll update
+categories: talk
 ---
 You’ll find this post in your `_posts` directory. 
 
