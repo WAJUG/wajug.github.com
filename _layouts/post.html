@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
+<!--
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
@@ -13,3 +12,117 @@ layout: default
   </article>
 
 </div>
+-->
+    <section id="page" class="page--events" data-page="events" aria-labelledby="fullpage-title">
+
+        <div class="events__intro ie8-background-size" style="background-image: url('/img/bg-evenement.jpg')">
+            <div class="wrap">
+                <h1 class="events__introTitle txt-center">
+                    [FIXME] Prochaines Sessions
+                </h1>
+                <p class="events__introItems txt-center">
+                    [FIXME] Votre agenda...
+                </p>
+            </div>
+        </div>
+
+        <section class="events__articles">
+            <div class="events__wrap wrap">
+                <aside class="events__aside">
+
+                        <article class="events__asideArticle">
+                            <a href="" class='active'>
+                                <h1 class="events__asideArticleTitle">
+                                    [FIXME] title
+                                </h1>
+                                <div class="events__asideArticleContent">
+                                    <p>
+                                        <strong class="events__asideArticleTime">
+											[FIXME] date
+                                        </strong>
+                                    </p>
+                                    <br/>
+                                    <span class="events__asideArticleSpeaker">
+										[FIXME] speaker
+                                    </span>
+                                    <i role="presentation" class="eventsAsideArticlePlus">+</i>
+                                </div>
+                            </a>
+                        </article>
+
+                        <article class="events__asideArticle">
+                            <a href="" class='active'>
+                                <h1 class="events__asideArticleTitle">
+                                    [FIXME] title
+                                </h1>
+                                <div class="events__asideArticleContent">
+                                    <p>
+                                        <strong class="events__asideArticleTime">
+											[FIXME] date
+                                        </strong>
+                                    </p>
+                                    <br/>
+                                    <span class="events__asideArticleSpeaker">
+										[FIXME] speaker
+                                    </span>
+                                    <i role="presentation" class="eventsAsideArticlePlus">+</i>
+                                </div>
+                            </a>
+                        </article>
+
+                        <article class="events__asideArticle">
+                            <a href="" class='active'>
+                                <h1 class="events__asideArticleTitle">
+                                    [FIXME] title
+                                </h1>
+                                <div class="events__asideArticleContent">
+                                    <p>
+                                        <strong class="events__asideArticleTime">
+											[FIXME] date
+                                        </strong>
+                                    </p>
+                                    <br/>
+                                    <span class="events__asideArticleSpeaker">
+										[FIXME] speaker
+                                    </span>
+                                    <i role="presentation" class="eventsAsideArticlePlus">+</i>
+                                </div>
+                            </a>
+                        </article>
+
+
+                </aside>
+
+                    <article class="events__article">
+                        <div class="events__articleContent">
+                            <h1 class="events__title" style="margin-right: 140px;">{{ page.title }}</h1>
+                            <div class="events__description">
+								{{ content }}
+                            </div>
+                        </div>
+
+                        <div class="events__moreInfos table">
+                                <div class="table-cell events__moreInfosItem">
+                                    <h3 class="events__moreInfosTitle">Ou ?</h3>
+                                    <div class="events__moreInfosContent">
+											La Forge/LeanSquare<br/>
+											Rue Chapelle des Clercs, 3<br/>
+											4000 Liège
+                                    </div>
+                                </div>
+                                <div class="table-cell events__moreInfosItem">
+                                    <h3 class="events__moreInfosTitle">Quand ?</h3>
+                                    <div class="events__moreInfosContent">
+										Le mardi 15 mars 2016, à partir de 18h30										
+                                    </div>
+                                </div>
+                        </div>
+                        <p style="margin-top: 60px" class="txt-center">
+                            <a href="url_boutton" class="btn btn--blue">Inscrivez-vous!</a>
+                        </p>
+                    </article>
+            </div>
+        </section>
+    </section>
+
+

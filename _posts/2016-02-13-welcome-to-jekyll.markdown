@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-02-13 20:54:20
-author:	Gildas C. & Julien G.G.
+author:	Jekyll
 categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. 
