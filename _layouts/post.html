@@ -30,67 +30,28 @@ layout: default
             <div class="events__wrap wrap">
                 <aside class="events__aside">
 
+					{% for post in site.posts %}
                         <article class="events__asideArticle">
-                            <a href="" class='active'>
+                            <a href="{{ post.url }}"" class='active'>
                                 <h1 class="events__asideArticleTitle">
-                                    [FIXME] title
+   									{{ post.title }}
                                 </h1>
                                 <div class="events__asideArticleContent">
                                     <p>
                                         <strong class="events__asideArticleTime">
-											[FIXME] date
+											{{ post.date | date: "%-d %B %Y" }}
+											{{ post.date | date: "%H:%M" }}
                                         </strong>
                                     </p>
                                     <br/>
                                     <span class="events__asideArticleSpeaker">
-										[FIXME] speaker
+                            	    	{{ post.author }}
                                     </span>
                                     <i role="presentation" class="eventsAsideArticlePlus">+</i>
                                 </div>
                             </a>
                         </article>
-
-                        <article class="events__asideArticle">
-                            <a href="" class='active'>
-                                <h1 class="events__asideArticleTitle">
-                                    [FIXME] title
-                                </h1>
-                                <div class="events__asideArticleContent">
-                                    <p>
-                                        <strong class="events__asideArticleTime">
-											[FIXME] date
-                                        </strong>
-                                    </p>
-                                    <br/>
-                                    <span class="events__asideArticleSpeaker">
-										[FIXME] speaker
-                                    </span>
-                                    <i role="presentation" class="eventsAsideArticlePlus">+</i>
-                                </div>
-                            </a>
-                        </article>
-
-                        <article class="events__asideArticle">
-                            <a href="" class='active'>
-                                <h1 class="events__asideArticleTitle">
-                                    [FIXME] title
-                                </h1>
-                                <div class="events__asideArticleContent">
-                                    <p>
-                                        <strong class="events__asideArticleTime">
-											[FIXME] date
-                                        </strong>
-                                    </p>
-                                    <br/>
-                                    <span class="events__asideArticleSpeaker">
-										[FIXME] speaker
-                                    </span>
-                                    <i role="presentation" class="eventsAsideArticlePlus">+</i>
-                                </div>
-                            </a>
-                        </article>
-
-
+	  				{% endfor %}
                 </aside>
 
                     <article class="events__article">
