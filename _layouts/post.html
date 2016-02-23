@@ -81,6 +81,12 @@ layout: default
                         <p style="margin-top: 60px" class="txt-center">
                             <a href="url_boutton" class="btn btn--blue">Inscrivez-vous!</a>
                         </p>
+
+                        <br />
+                        <hr />
+                        <footer role="contentinfo">
+                            {% if page.share != false %}{% include _social-share.html %}{% endif %}
+                        </footer>
                     </article>
             </div>
         </section>
