@@ -36,7 +36,7 @@ layout: default
 					{% if postDate >= currentTime %}
 
                         <article class="events__asideArticle">
-                            <a href="{{ post.url }}"" class='active'>
+                            <a href="{{ post.url }}" {% if post.url == page.url %}class='active'{% endif %}>
                                 <h1 class="events__asideArticleTitle">
    									{{ post.title }}
                                 </h1>
