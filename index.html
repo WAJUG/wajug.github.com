@@ -23,30 +23,35 @@ layout: default
             <h2 class="home__eventsTitle page__title">
                 Prochainement …
             </h2>
-				{% for post in site.posts %}
-                <article class="home__event">
-                    <div class="home__eventLeft">
-                        <time class="home__eventTime">
-                            <span>{{ post.date | date: "%-d %B %Y" }}</span>
-                            <span>{{ post.date | date: "%H:%M" }}</span>
-                        </time>
-                        <span class="home__eventauthor">
-                            par {{ post.author }}
-                        </span>
-
-                    </div>
-                    <div class="home__eventRight">
-                        <h1 class="home__eventTitle">
-                            {{ post.title }}
-                        </h1>
-                        <div class="home__eventDesc">
-                        	{{ post.excerpt | strip_html | truncatewords:35 }}
-                        </div>
-                        <a href="{{ post.url }}" class="home__eventLink">
-                            Lire la suite
-                        </a>
-                    </div>
-                </article>
+				{% comment %} only list upcoming talks/events, not those in the past {% endcomment %}
+				{% capture currentTime %}{{'now' | date: '%s'}}{% endcapture %}
+				{% for post in site.posts reversed %}
+					{% capture postDate %}{{post.date | date: '%s'}}{% endcapture %}
+					{% if postDate >= currentTime %}
+				
+					<article class="home__event">
+                    	<div class="home__eventLeft">
+                        	<time class="home__eventTime">
+                            	<span>{{ post.date | date: "%-d %B %Y" }}</span>
+								<span>{{ post.date | date: "%H:%M" }}</span>
+							</time>	
+							<span class="home__eventauthor">
+                            	par {{ post.author }}							
+							</span>
+						</div>
+						<div class="home__eventRight">
+                        	<h1 class="home__eventTitle">
+                            	{{ post.title }}
+							</h1>
+							<div class="home__eventDesc">
+                        		{{ post.excerpt | strip_html | truncatewords:35 }}
+							</div>
+							<a href="{{ post.url }}" class="home__eventLink">
+                            	Lire la suite
+							</a>
+						</div>
+					</article>
+					{% endif %}
 	  			{% endfor %}
          </div>
 	</div>

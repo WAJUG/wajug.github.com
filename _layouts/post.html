@@ -30,7 +30,7 @@ layout: default
             <div class="events__wrap wrap">
                 <aside class="events__aside">
 
-					{% for post in site.posts %}
+					{% for post in site.posts reversed %}
                         <article class="events__asideArticle">
                             <a href="{{ post.url }}"" class='active'>
                                 <h1 class="events__asideArticleTitle">
