@@ -29,8 +29,12 @@ layout: default
         <section class="events__articles">
             <div class="events__wrap wrap">
                 <aside class="events__aside">
+				{% comment %} only list upcoming talks/events, not those in the past {% endcomment %}
+				{% capture currentTime %}{{'now' | date: '%s'}}{% endcapture %}
+				{% for post in site.posts reversed %}
+					{% capture postDate %}{{post.date | date: '%s'}}{% endcapture %}
+					{% if postDate >= currentTime %}
 
-					{% for post in site.posts reversed %}
                         <article class="events__asideArticle">
                             <a href="{{ post.url }}"" class='active'>
                                 <h1 class="events__asideArticleTitle">
@@ -50,8 +54,9 @@ layout: default
                                     <i role="presentation" class="eventsAsideArticlePlus">+</i>
                                 </div>
                             </a>
-                        </article>
-	  				{% endfor %}
+                        </article>						
+						{% endif %}
+  				{% endfor %}
                 </aside>
 
                     <article class="events__article">
