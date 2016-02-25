@@ -71,15 +71,14 @@ layout: default
                                 <div class="table-cell events__moreInfosItem">
                                     <h3 class="events__moreInfosTitle">Ou ?</h3>
                                     <div class="events__moreInfosContent">
-											La Forge/LeanSquare<br/>
-											Rue Chapelle des Clercs, 3<br/>
-											4000 Liège
+										{{ page.location }}
                                     </div>
                                 </div>
                                 <div class="table-cell events__moreInfosItem">
                                     <h3 class="events__moreInfosTitle">Quand ?</h3>
                                     <div class="events__moreInfosContent">
-										Le mardi 15 mars 2016, à partir de 18h30										
+										Le {{ page.date | date: "%A %-d %B" }}, <br/>
+										à partir de  {{ page.date | date: "%k:%M" }}
                                     </div>
                                 </div>
                         </div>

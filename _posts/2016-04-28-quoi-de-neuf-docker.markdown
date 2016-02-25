@@ -4,6 +4,7 @@ title:  "Developing for smartwatches"
 date:   2016-04-28 18:30
 author:	Sébastien A. & Said E.
 categories: talk
+location: La Forge/LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
 ---
 Nous allons vous montrer l’application Smartvoxx, qui vous permet de consulter l'agenda de Devoxx et de recevoir des notifications pour vos présentations favorites mais sur différentes plates-formes smartwatch (Apple Watch, Android Wear, ...). Cette présentation sera l'occasion de partager notre retour d'expérience sur les langages, les outils, les APIs et les possibilités de chaque plate-forme, afin que vous puissiez vous faire une idée concrète du genre d'opportunités offertes par ce nouveau paradigme ainsi que de l'investissement nécessaire pour tirer parti de ces opportunités. Attention, il y aura du code Java et du code Swift dans cette présentation, voire peut-être même du C.
 
