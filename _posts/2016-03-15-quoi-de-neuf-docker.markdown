@@ -5,6 +5,7 @@ date:   2016-03-15 18:30
 author:	Gildas C. & Julien G.G.
 categories: talk
 location: La Forge/LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
+meetup: 228800508
 ---
 ##1er talk de la soirée, par Gildas
 Docker ? La nouvelle révolution de l’IT ? 
