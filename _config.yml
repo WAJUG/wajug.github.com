@@ -14,3 +14,5 @@ markdown: kramdown
 
 # Process Posts even if they are in the future
 future: true
+
+permalink: /:categories/:year/:title
