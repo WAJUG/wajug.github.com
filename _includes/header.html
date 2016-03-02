@@ -13,14 +13,14 @@
                     <nav role="navigation" class="page__headerNavigation ">
                         <div class="menu-menu-mobile-container">
 							<ul id="menu-menu-mobile" class="mobile-menu">
-								<li {% if '/index.html' == page.url %}class="current-menu-item"{% endif %}><a href="/">Accueil</a></li>
+								<li {% if '/index.html' == page.url or page.url == '/' %}class="current-menu-item"{% endif %}><a href="/">Accueil</a></li>
 								{% comment %} show the event menu as active for any page that is about a talk/event {% endcomment %}
-								<li {% if '/events.html' == page.url or page.url contains "/talk" %}class="current-menu-item"{% endif %}><a href="/events.html">Evènements</a></li>
-								<li {% if '/d4k.html' == page.url %}class="current-menu-item"{% endif %}><a href="/d4k.html">Spécial enfants</a></li>
-								<li {% if '/sponsoring.html' == page.url %}class="current-menu-item"{% endif %}><a href="/sponsoring.html">Sponsoring</a></li>
-								<li {% if '/contact.html' == page.url %}class="current-menu-item"{% endif %}><a href="/contact.html">Contact</a></li>
+								<li {% if '/events' == page.url or page.url contains "/talk" %}class="current-menu-item"{% endif %}><a href="/events">Evènements</a></li>
+								<li {% if '/d4k' == page.url %}class="current-menu-item"{% endif %}><a href="/d4k">Spécial enfants</a></li>
+								<li {% if '/sponsoring' == page.url %}class="current-menu-item"{% endif %}><a href="/sponsoring">Sponsoring</a></li>
+								<li {% if '/contact' == page.url %}class="current-menu-item"{% endif %}><a href="/contact">Contact</a></li>
 							</ul>
-						</div>                    
+						</div>
 					</nav>
                     <ul class="events__authorSocialsMedia" style="top: -30px">
 							<li class="events__authorSocialMedia">
@@ -63,4 +63,4 @@
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a href="/sponsoring/">Sponsoring</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="/contact/">Contact</a></li>
 </ul></div>                    </nav>
-                </div>    
+                </div>
