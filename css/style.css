@@ -3945,6 +3945,18 @@ h1, h2, h3, h4, h5, h6 {
     width: 86%;
     background-color: #f1f1f1; }
 
+.events__moreInfosContentNoBorder {
+  min-height: 190px;
+  position: relative;
+  margin-top: 20px;
+  margin-top: 2rem;
+  padding-left: 20px;
+  padding-left: 2rem;
+  padding-right: 20px;
+  padding-right: 2rem;
+  text-align: center; 
+  border: none;}
+
 @media (max-width: 720px) {
   /* line 180, sass/partials/pages/_events.scss */
   .events__wrap {

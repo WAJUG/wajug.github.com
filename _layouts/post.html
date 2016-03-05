@@ -99,15 +99,24 @@ layout: default
                                     </div>
                                 </div>
                         </div>
-                        <p style="margin-top: 60px" class="txt-center">
-                            <a href="http://www.meetup.com/wajug-be/events/{{ page.meetup }}" class="btn btn--blue">Inscrivez-vous!</a>
-                        </p>
 
-                        <br />
-                        <hr />
-                        <footer role="contentinfo">
-                            {% if page.share != false %}{% include _social-share.html %}{% endif %}
-                        </footer>
+                       <div class="events__moreInfos table">
+                                <div class="table-cell events__moreInfosItem">
+                                    <div class="events__moreInfosContentNoBorder">
+                                        <p style="margin-top: 30px" class="txt-center">
+                                            <a href="http://www.meetup.com/wajug-be/events/{{ page.meetup }}" class="btn btn--blue">Inscrivez-vous!</a>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="table-cell events__moreInfosItem">
+                                    <div class="events__moreInfosContentNoBorder">
+                                        {% if page.share != false %}{% include _social-share.html %}{% endif %}
+                                    </div>
+                                </div>
+
+                        </div>                        
+
                     </article>
             </div>
         </section>
