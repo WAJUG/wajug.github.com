@@ -31,7 +31,7 @@ layout: default
                           {% when '6' %}samedi
                         {% endcase %}
                     {% endcapture %}
-                    {% assign m = page.date | date: "%-m" %}
+                    {% assign m = nextEvent.date | date: "%-m" %}
                     {% capture month_name %}
                         {% case m %}
                           {% when '1' %}janvier
