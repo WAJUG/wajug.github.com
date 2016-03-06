@@ -3,14 +3,58 @@ layout: default
 ---
     <section id="page" class="page--events" data-page="events" aria-labelledby="fullpage-title">
 
+        {% comment %} identify the next (upcoming) talk to refer to from the menu {% endcomment %}
+        {% capture currentTime %}{{'now' | date: '%s'}}{% endcapture %}
+        {% for post in site.posts reversed  %}
+            {% capture postDate %}{{post.date | date: '%s'}}{% endcapture %}
+            {% if postDate >= currentTime %}
+                {% assign nextEvent  = post %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+
         <div class="events__intro ie8-background-size" style="background-image: url('/img/bg-evenement.jpg')">
             <div class="wrap">
                 <h1 class="events__introTitle txt-center">
-                    [FIXME] Prochaines Sessions
+                    Prochaine session: {{ nextEvent.title }}
                 </h1>
                 <p class="events__introItems txt-center">
-                    [FIXME] Votre agenda...
+                    {% assign d = nextEvent.date | date: "%w" %}
+                    {% capture weekday_name %}
+                        {% case d %}
+                          {% when '0' %}dimanche
+                          {% when '1' %}lundi
+                          {% when '2' %}mardi
+                          {% when '3' %}mercredi
+                          {% when '4' %}jeudi
+                          {% when '5' %}vendredi
+                          {% when '6' %}samedi
+                        {% endcase %}
+                    {% endcapture %}
+                    {% assign m = page.date | date: "%-m" %}
+                    {% capture month_name %}
+                        {% case m %}
+                          {% when '1' %}janvier
+                          {% when '2' %}février
+                          {% when '3' %}mars
+                          {% when '4' %}avril
+                          {% when '5' %}mai
+                          {% when '6' %}juin
+                          {% when '7' %}juillet
+                          {% when '8' %}août
+                          {% when '9' %}septembre
+                          {% when '10' %}octobre
+                          {% when '11' %}novembre
+                          {% when '12' %}décembre
+                        {% endcase %}
+                    {% endcapture %}
+                    Le  {{ weekday_name }} {{ nextEvent.date | date: "%-d" }} {{ month_name }},<br/>
+                    à partir de  {{ nextEvent.date | date: "%kh%M" }}
                 </p>
+
+                <p style="margin-top: 30px" class="events__introItems txt-center">
+                                            <a href="http://www.meetup.com/wajug-be/events/{{ page.meetup }}" class="btn btn--blue">Inscrivez-vous!</a>
+                                        </p>
             </div>
         </div>
 
@@ -31,8 +75,37 @@ layout: default
                                 <div class="events__asideArticleContent">
                                     <p>
                                         <strong class="events__asideArticleTime">
-											{{ post.date | date: "%-d %B %Y" }}
-											{{ post.date | date: "%H:%M" }}
+                                            {% assign d = post.date | date: "%w" %}
+                                            {% capture weekday_name %}
+                                                {% case d %}
+                                                  {% when '0' %}dimanche
+                                                  {% when '1' %}lundi
+                                                  {% when '2' %}mardi
+                                                  {% when '3' %}mercredi
+                                                  {% when '4' %}jeudi
+                                                  {% when '5' %}vendredi
+                                                  {% when '6' %}samedi
+                                                {% endcase %}
+                                            {% endcapture %}
+                                            {% assign m = post.date | date: "%-m" %}
+                                            {% capture month_name %}
+                                                {% case m %}
+                                                  {% when '1' %}janvier
+                                                  {% when '2' %}février
+                                                  {% when '3' %}mars
+                                                  {% when '4' %}avril
+                                                  {% when '5' %}mai
+                                                  {% when '6' %}juin
+                                                  {% when '7' %}juillet
+                                                  {% when '8' %}août
+                                                  {% when '9' %}septembre
+                                                  {% when '10' %}octobre
+                                                  {% when '11' %}novembre
+                                                  {% when '12' %}décembre
+                                                {% endcase %}
+                                            {% endcapture %}
+                                            Le  {{ weekday_name }} {{ post.date | date: "%-d" }} {{ month_name }},<br/>
+                                            à partir de  {{ post.date | date: "%kh%M" }}
                                         </strong>
                                     </p>
                                     <br/>
