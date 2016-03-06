@@ -19,37 +19,10 @@ layout: default
                     Prochaine session: {{ nextEvent.title }}
                 </h1>
                 <p class="events__introItems txt-center">
-                    {% assign d = nextEvent.date | date: "%w" %}
-                    {% capture weekday_name %}
-                        {% case d %}
-                          {% when '0' %}dimanche
-                          {% when '1' %}lundi
-                          {% when '2' %}mardi
-                          {% when '3' %}mercredi
-                          {% when '4' %}jeudi
-                          {% when '5' %}vendredi
-                          {% when '6' %}samedi
-                        {% endcase %}
-                    {% endcapture %}
-                    {% assign m = nextEvent.date | date: "%-m" %}
-                    {% capture month_name %}
-                        {% case m %}
-                          {% when '1' %}janvier
-                          {% when '2' %}février
-                          {% when '3' %}mars
-                          {% when '4' %}avril
-                          {% when '5' %}mai
-                          {% when '6' %}juin
-                          {% when '7' %}juillet
-                          {% when '8' %}août
-                          {% when '9' %}septembre
-                          {% when '10' %}octobre
-                          {% when '11' %}novembre
-                          {% when '12' %}décembre
-                        {% endcase %}
-                    {% endcapture %}
-                    Le  {{ weekday_name }} {{ nextEvent.date | date: "%-d" }} {{ month_name }},<br/>
-                    à partir de  {{ nextEvent.date | date: "%kh%M" }}
+                    {% assign inputDate = nextEvent.date %}                    
+                    {% include _translate_date.html %}
+                    Le  {{ weekday_name }} {{ inputDate | date: "%-d" }} {{ month_name }},<br/>
+                    à partir de  {{ inputDate | date: "%kh%M" }}
                 </p>
 
                 <p style="margin-top: 30px" class="events__introItems txt-center">
@@ -75,37 +48,11 @@ layout: default
                                 <div class="events__asideArticleContent">
                                     <p>
                                         <strong class="events__asideArticleTime">
-                                            {% assign d = post.date | date: "%w" %}
-                                            {% capture weekday_name %}
-                                                {% case d %}
-                                                  {% when '0' %}dimanche
-                                                  {% when '1' %}lundi
-                                                  {% when '2' %}mardi
-                                                  {% when '3' %}mercredi
-                                                  {% when '4' %}jeudi
-                                                  {% when '5' %}vendredi
-                                                  {% when '6' %}samedi
-                                                {% endcase %}
-                                            {% endcapture %}
-                                            {% assign m = post.date | date: "%-m" %}
-                                            {% capture month_name %}
-                                                {% case m %}
-                                                  {% when '1' %}janvier
-                                                  {% when '2' %}février
-                                                  {% when '3' %}mars
-                                                  {% when '4' %}avril
-                                                  {% when '5' %}mai
-                                                  {% when '6' %}juin
-                                                  {% when '7' %}juillet
-                                                  {% when '8' %}août
-                                                  {% when '9' %}septembre
-                                                  {% when '10' %}octobre
-                                                  {% when '11' %}novembre
-                                                  {% when '12' %}décembre
-                                                {% endcase %}
-                                            {% endcapture %}
-                                            Le  {{ weekday_name }} {{ post.date | date: "%-d" }} {{ month_name }},<br/>
-                                            à partir de  {{ post.date | date: "%kh%M" }}
+                                            {% assign inputDate = post.date %}                    
+                                            {% include _translate_date.html %}
+
+                                            Le  {{ weekday_name }} {{ inputDate | date: "%-d" }} {{ month_name }},<br/>
+                                            à partir de  {{ inputDate | date: "%kh%M" }}
                                         </strong>
                                     </p>
                                     <br/>
@@ -138,37 +85,11 @@ layout: default
                                 <div class="table-cell events__moreInfosItem">
                                     <h3 class="events__moreInfosTitle">Quand ?</h3>
                                     <div class="events__moreInfosContent">
-										{% assign d = page.date | date: "%w" %}
-										{% capture weekday_name %}
-											{% case d %}
-											  {% when '0' %}dimanche
-											  {% when '1' %}lundi
-											  {% when '2' %}mardi
-											  {% when '3' %}mercredi
-											  {% when '4' %}jeudi
-											  {% when '5' %}vendredi
-											  {% when '6' %}samedi
-											{% endcase %}
-										{% endcapture %}
-										{% assign m = page.date | date: "%-m" %}
-										{% capture month_name %}
-											{% case m %}
-											  {% when '1' %}janvier
-											  {% when '2' %}février
-											  {% when '3' %}mars
-											  {% when '4' %}avril
-											  {% when '5' %}mai
-											  {% when '6' %}juin
-											  {% when '7' %}juillet
-											  {% when '8' %}août
-											  {% when '9' %}septembre
-											  {% when '10' %}octobre
-											  {% when '11' %}novembre
-											  {% when '12' %}décembre
-											{% endcase %}
-										{% endcapture %}
-										Le  {{ weekday_name }} {{ page.date | date: "%-d" }} {{ month_name }},<br/>
-										à partir de  {{ page.date | date: "%kh%M" }}
+										{% assign inputDate = page.date %}                    
+                                        {% include _translate_date.html %}
+										
+                                        Le  {{ weekday_name }} {{ inputDate | date: "%-d" }} {{ month_name }},<br/>
+										à partir de  {{ inputDate | date: "%kh%M" }}
                                     </div>
                                 </div>
                         </div>
