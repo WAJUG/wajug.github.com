@@ -26,7 +26,7 @@
 							<ul id="menu-menu-mobile" class="mobile-menu">
 								<li {% if '/index.html' == page.url or page.url == '/' %}class="current-menu-item"{% endif %}><a href="/">Accueil</a></li>
 								{% comment %} show the event menu as active for any page that is about a talk/event {% endcomment %}
-								<li {% if '/events' == page.url or page.url contains "/talk" %}class="current-menu-item"{% endif %}><a href="{{ nextEvent.url | prepend: site.baseurl | prepend: site.url }}">Evènements</a></li>
+								<li {% if '/events' == page.url or page.url contains "/talk" %}class="current-menu-item"{% endif %}><a href="{{ nextEvent.url }}">Evènements</a></li>
 								{% comment %} temporary remove these pages from the menu
 								<li {% if '/d4k' == page.url %}class="current-menu-item"{% endif %}><a href="/d4k">Spécial enfants</a></li>
 								<li {% if '/sponsoring' == page.url %}class="current-menu-item"{% endif %}><a href="/sponsoring">Sponsoring</a></li>
