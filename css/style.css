@@ -366,7 +366,7 @@ a {
     text-decoration: underline; }
   /* line 16, sass/partials/_elements.scss */
   a:visited {
-    color: #2b768b; 
+    color: #2b768b;
 }
 
 /* line 21, sass/partials/_elements.scss */
@@ -3102,6 +3102,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block; } }
 /* line 1, sass/partials/pages/_contact.scss */
 .page--contact {
+  /*background-color: #3d4145;*/
   position: relative; }
 
 /* line 5, sass/partials/pages/_contact.scss */
@@ -3898,7 +3899,7 @@ h1, h2, h3, h4, h5, h6 {
 }
   /* line 132, sass/partials/pages/_events.scss */
   .events__authorSocialMediaLink:hover {
-    color: black; 
+    color: black;
 }
 
 /* line 138, sass/partials/pages/_events.scss */
@@ -4218,7 +4219,7 @@ h1, h2, h3, h4, h5, h6 {
 }
   /* line 185, sass/partials/pages/_home.scss */
   .home__socialMediaLink:hover i {
-    color: #C70019; 
+    color: #C70019;
 }
   /* line 189, sass/partials/pages/_home.scss */
   .home__socialMediaLink i {
@@ -4229,7 +4230,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transition: 0.2s ease color;
     -moz-transition: 0.2s ease color;
     -o-transition: 0.2s ease color;
-    transition: 0.2s ease color; 
+    transition: 0.2s ease color;
 }
 
 @media (max-width: 960px) {
@@ -4909,12 +4910,12 @@ html, body {
 
 @media print {
   /*
-  
+
     Print Styles
-  
+
     Ce fichier crée deux sorties : une dans style.css avec la media query @media print pour tous les navigateurs,
     la seconde dans une fichier print.css à la racine du thème pour les veilles versions d'IE.
-  
+
     Il est inclus dans le <head> avec un commentaire conditionnel
-  
+
   */ }

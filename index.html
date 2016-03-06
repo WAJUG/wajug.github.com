@@ -3,13 +3,13 @@ layout: default
 ---
 <body class="home page page-id-7 page-template page-template-page-accueil-php">
 
-				
+
 				<section id="page" class="page--accueil" data-page="accueil" aria-labelledby="fullpage-title">
 
     <div class="home__hero ie8-background-size" style="background-image: url(/img/home__hero.jpg)">
         <div class="wrap table">
             <p class="wrap table-cell">
-                WAJUG est votre groupe d'utilisateurs local, Wallon,   abordant "tout ce qui touche au développement logiciel". <br> <br> Tout ceci dans une ambiance fun, amicale, ouverte et typiquement wallonne.                
+                WAJUG est votre groupe d'utilisateurs local, Wallon,   abordant "tout ce qui touche au développement logiciel". <br> <br> Tout ceci dans une ambiance fun, amicale, ouverte et typiquement wallonne.
 				<!--
 				<br><br>
                 <a href="#" class="btn">Plus d'info</a>
@@ -28,16 +28,16 @@ layout: default
 				{% for post in site.posts reversed %}
 					{% capture postDate %}{{post.date | date: '%s'}}{% endcapture %}
 					{% if postDate >= currentTime %}
-				
+
 					<a href="{{ post.url }}" style="color:inherit;text-decoration:none;">
                         <article class="home__event">
                         	<div class="home__eventLeft">
                             	<time class="home__eventTime">
                                 	<span>{{ post.date | date: "%-d %B %Y" }}</span>
     								<span>{{ post.date | date: "%H:%M" }}</span>
-    							</time>	
+    							</time>
     							<span class="home__eventauthor">
-                                	par {{ post.author }}							
+                                	par {{ post.author }}
     							</span>
     						</div>
     						<div class="home__eventRight">
@@ -93,7 +93,7 @@ Kanban<br />
                         <h2 class="home__aboutItemTitle">
                             C'est à vous                        </h2>
                         <div>
-                            <p>Mais WAJUG est bien plus que tout ceci. C&rsquo;est votre groupe d&rsquo;utilisateurs, dédié à vos centres d&rsquo;interets. Donc n&rsquo;hésitez pas à envoyer vos suggestions sur notre Facebook ou sur Twitter.</p>
+                            <p>Mais WAJUG est bien plus que tout ceci. C&rsquo;est votre groupe d&rsquo;utilisateurs, dédié à vos centres d&rsquo;intérêts. Donc n&rsquo;hésitez pas à envoyer vos suggestions sur notre Facebook ou sur Twitter.</p>
 <p>De même, si vous avez envie de présenter un sujet, soyez les bienvenus et faites le nous savoir.</p>
                         </div>
                         <div class="home__aboutImg">
@@ -105,9 +105,9 @@ Kanban<br />
 
     <div class="home__socialMedia">
         <div class="wrap">
-            <h2 class="page__title home__eventsTitle">Intéressé ?</h2>
+            <h2 class="page__title home__eventsTitle">Intéressé(e) ?</h2>
             <p class="txt-center">
-                Venez à notre prochaines sessions, voyez notre programme et faites passer le message !
+                Venez à notre prochaine session, voyez notre programme et faites passer le message !
             </p>
             <ul>
                 <li class="home__socialMediaItem">
@@ -141,5 +141,3 @@ Kanban<br />
     </section>
 
             </main> <!-- .main-page -->
-
-  
