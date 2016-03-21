@@ -69,11 +69,21 @@
                 <div class="snap-drawer snap-drawer-left">
                     <nav role="navigation">
                         <h1 class="screenreader-only">
-                            Navigation mobile                        </h1>
-                        <div class="menu-menu-mobile-container"><ul id="menu-menu-mobile-1" class="mobile-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item menu-item-176"><a href="/">Accueil</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a href="/events.html">Evènements</a></li>
+                            Navigation mobile
+                        </h1>
+                        <div class="menu-menu-mobile-container">
+                          <ul id="menu-menu-mobile-1" class="mobile-menu">
+
+<!--<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item menu-item-176"><a href="/">Accueil</a></li>-->
+
+<li {% if '/index.html' == page.url or page.url == '/' %}class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item menu-item-176 current-menu-item"{% endif %}><a href="/">Accueil</a></li>
+
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a href="/events.html">Evénements</a></li>
+{% comment %} temporary remove these pages from the menu
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173"><a href="/kids/">Special enfants</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a href="/sponsoring/">Sponsoring</a></li>
+{% endcomment %}
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="/contact/">Contact</a></li>
-</ul></div>                    </nav>
+</ul></div>
+                    </nav>
                 </div>
