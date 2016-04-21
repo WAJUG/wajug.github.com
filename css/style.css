@@ -2910,12 +2910,12 @@ h1, h2, h3, h4, h5, h6 {
     top: 3px; }
   /* line 19, sass/partials/objects/_btn.scss */
   .btn.btn--blue, #submit {
-    background-color: #3a7b8e;
+    background-color: #c70019;
     border-bottom-color: #18637e;
     color: white; }
     /* line 24, sass/partials/objects/_btn.scss */
     .btn.btn--blue:hover, #submit:hover {
-      background-color: #51abc5; }
+      background-color: #c70019; }
 
 /* line 4, sass/partials/objects/_forms.scss */
 .wpcf7 .wpcf7-display-none,
