@@ -579,7 +579,8 @@ blockquote {
         opacity: 1; }
   /* line 27, sass/partials/_footer.scss */
   .page__footer img {
-    max-width: 135px; }
+	  /*max-width: 135px; */
+}
   /* line 31, sass/partials/_footer.scss */
   .page__footer p {
     color: #575757;
