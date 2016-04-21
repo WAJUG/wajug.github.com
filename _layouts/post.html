@@ -16,18 +16,12 @@ layout: default
         <div class="events__intro ie8-background-size" style="background-image: url('/img/bg-evenement.jpg')">
             <div class="wrap">
                 <h1 class="events__introTitle txt-center">
-                    Prochaine session: {{ nextEvent.title }}
+                    Prochaine session(s)
                 </h1>
                 <p class="events__introItems txt-center">
-                    {% assign inputDate = nextEvent.date %}
-                    {% include _translate_date.html %}
-                    Le  {{ weekday_name }} {{ inputDate | date: "%-d" }} {{ month_name }},<br/>
-                    à partir de  {{ inputDate | date: "%kh%M" }}
+                    Voici l'agenda de nos prochaines sessions. <br/>
+                    Revenez régulièrement sur cette page pour voir les mises à jour.
                 </p>
-
-                <p style="margin-top: 30px" class="events__introItems txt-center">
-                                            <a href="http://www.meetup.com/wajug-be/events/{{ nextEvent.meetupId }}" class="btn btn--blue">Inscrivez-vous!</a>
-                                        </p>
             </div>
         </div>
 
