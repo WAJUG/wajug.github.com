@@ -19,14 +19,14 @@ layout: default
                     Prochaine session: {{ nextEvent.title }}
                 </h1>
                 <p class="events__introItems txt-center">
-                    {% assign inputDate = nextEvent.date %}                    
+                    {% assign inputDate = nextEvent.date %}
                     {% include _translate_date.html %}
                     Le  {{ weekday_name }} {{ inputDate | date: "%-d" }} {{ month_name }},<br/>
                     à partir de  {{ inputDate | date: "%kh%M" }}
                 </p>
 
                 <p style="margin-top: 30px" class="events__introItems txt-center">
-                                            <a href="http://www.meetup.com/wajug-be/events/{{ page.meetup }}" class="btn btn--blue">Inscrivez-vous!</a>
+                                            <a href="http://www.meetup.com/wajug-be/events/{{ nextEvent.meetupId }}" class="btn btn--blue">Inscrivez-vous!</a>
                                         </p>
             </div>
         </div>
@@ -48,7 +48,7 @@ layout: default
                                 <div class="events__asideArticleContent">
                                     <p>
                                         <strong class="events__asideArticleTime">
-                                            {% assign inputDate = post.date %}                    
+                                            {% assign inputDate = post.date %}
                                             {% include _translate_date.html %}
 
                                             Le  {{ weekday_name }} {{ inputDate | date: "%-d" }} {{ month_name }},<br/>
@@ -59,10 +59,10 @@ layout: default
                                     <span class="events__asideArticleSpeaker">
                             	    	{{ post.author }}
                                     </span>
-                                    
+
                                 </div>
                             </a>
-                        </article>						
+                        </article>
 						{% endif %}
   				{% endfor %}
                 </aside>
@@ -85,9 +85,9 @@ layout: default
                                 <div class="table-cell events__moreInfosItem">
                                     <h3 class="events__moreInfosTitle">Quand ?</h3>
                                     <div class="events__moreInfosContent">
-										{% assign inputDate = page.date %}                    
+										{% assign inputDate = page.date %}
                                         {% include _translate_date.html %}
-										
+
                                         Le  {{ weekday_name }} {{ inputDate | date: "%-d" }} {{ month_name }},<br/>
 										à partir de  {{ inputDate | date: "%kh%M" }}
                                     </div>
@@ -98,7 +98,7 @@ layout: default
                                 <div class="table-cell events__moreInfosItem">
                                     <div class="events__moreInfosContentNoBorder">
                                         <p style="margin-top: 30px" class="txt-center">
-                                            <a href="http://www.meetup.com/wajug-be/events/{{ page.meetup }}" class="btn btn--blue">Inscrivez-vous!</a>
+                                            <a href="http://www.meetup.com/wajug-be/events/{{ nextEvent.meetupId }}" class="btn btn--blue">Inscrivez-vous!</a>
                                         </p>
                                     </div>
                                 </div>
@@ -109,11 +109,9 @@ layout: default
                                     </div>
                                 </div>
 
-                        </div>                        
+                        </div>
 
                     </article>
             </div>
         </section>
     </section>
-
-
