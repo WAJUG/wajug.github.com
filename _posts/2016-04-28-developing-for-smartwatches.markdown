@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Developing for smartwatches"
-date:   2016-04-28 18:30
+date:   2016-06-16 18:30
 author:	Sébastien A. & Said E.
 categories: talk
 location: Afelio<br/>Quai Mativa, 62<br/>4020 Liège
