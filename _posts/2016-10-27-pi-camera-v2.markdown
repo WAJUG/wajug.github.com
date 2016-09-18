@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Télésurveillance - Raspberry Pi 3 & Pi Camera V2"
+date:   2016-10-27 18:00
+author:
+categories: talk
+location: La Forge/LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
+meetup:
+---
+**Assembler**, **programmer** et **contrôler** sa propre caméra de surveillance connectée ! C'est ce que vous propose le groupe Wajug au travers d'un atelier sur _le Raspberry Pi 3 et la Pi Camera V2_ !
+
+Une séance au cours de laquelle vous aurez la chance d'apprendre les bases de la programmation d'une caméra IP. Celles-ci seront alors mises en oeuvre dans un labo pratique qui se terminera par l’installation d’un système complet permettant de contrôler la caméra au travers de nombreuses fonctionnalités, sans devoir écrire une seule ligne de code !
+
+Tout le matériel nécessaire sera mis à votre disposition gratuitement, vous aurez ensuite le choix d’acheter ou non votre propre kit et de repartir avec !
+
+![alt text](/img/rpi3_post.jpg "Wajug RPI3")
+
+Quand ? Le 27 octobre à 18h00 ! Où ? Chez LeanSqare à Liège ! Combien de temps ? Environ 4 heures ! Et le prix !? ...€ + prix du matériel si vous voulez repartir avec (environ ...€) !
+
+Pour ne pas manquer d'énergie, pizza et boissons à volonté seront mises à votre disposition. Alors n'attendez pas pour vous inscrire !
