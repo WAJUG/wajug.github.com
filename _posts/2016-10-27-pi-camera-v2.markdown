@@ -1,20 +1,22 @@
 ---
 layout: post
-title:  "Télésurveillance - Raspberry Pi 3 & Pi Camera V2"
+title:  "Programmer et contrôler votre camera Raspberry Pi3"
 date:   2016-10-27 18:00
-author:
+author: The WAJUG team
 categories: talk
 location: La Forge/LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
-meetup:
+meetup: 234343365
 ---
-**Assembler**, **programmer** et **contrôler** sa propre caméra de surveillance connectée ! C'est ce que vous propose le groupe Wajug au travers d'un atelier sur _le Raspberry Pi 3 et la Pi Camera V2_ !
+**Assembler, programmer et contrôler sa propre caméra connectée!** Pour de la télésurveillance ou tout autre usage, c’est ce que vous propose le groupe WAJUG au travers d’un atelier sur le _Raspberry Pi 3 et la Pi Camera V2_ !
 
-Une séance au cours de laquelle vous aurez la chance d'apprendre les bases de la programmation d'une caméra IP. Celles-ci seront alors mises en oeuvre dans un labo pratique qui se terminera par l’installation d’un système complet permettant de contrôler la caméra au travers de nombreuses fonctionnalités, sans devoir écrire une seule ligne de code !
+Une séance au cours de laquelle vous aurez la chance d’apprendre les bases de la programmation d’une caméra IP. Celles-ci seront alors mises en oeuvre dans un labo pratique qui se terminera par l’installation d’un système complet permettant de contrôler la caméra au travers de nombreuses fonctionnalités, sans devoir écrire une seule ligne de code ! Aucun pré-requis en programmation n'est nécessaire. L'envie d'apprendre, et une bonne familiarité avec les ordinateurs sont plus importants.
 
-Tout le matériel nécessaire sera mis à votre disposition gratuitement, vous aurez ensuite le choix d’acheter ou non votre propre kit et de repartir avec !
+Tout le matériel nécessaire sera mis à votre disposition. En fonction du type de ticket que vous choisissez, vous aurez le choix de repartir avec votre propre kit. Le kit en question est composé d'un Raspberry Pi 3, de la Pi Noir Camera v2, d'un boîtier Raspberry Pi officiel, d'un chargeur secteur et d'une carte MicroSD 16Gb pré-chargée avec les logiciels que nous utiliserons. 
 
 ![alt text](/img/rpi3_post.jpg "Wajug RPI3")
 
-Quand ? Le 27 octobre à 18h00 ! Où ? Chez LeanSqare à Liège ! Combien de temps ? Environ 4 heures ! Et le prix !? ...€ + prix du matériel si vous voulez repartir avec (environ ...€) !
+Quand ? Le jeudi 27 octobre à 18h00 ! Où ? Chez LeanSqare à Liège ! Combien de temps ? Environ 4 heures ! Et le prix !? 130€ si vous voulez repartir avec le matériel ou 30€ pour le workshop seul incluant le prêt du matériel.
 
-Pour ne pas manquer d'énergie, pizza et boissons à volonté seront mises à votre disposition. Alors n'attendez pas pour vous inscrire !
+Pour ne pas manquer d’énergie, pizza et boissons seront mises à votre disposition en suffisance (inclus dans le prix, peu importe l'option choisie) . Alors n’attendez pas pour vous inscrire, les places sont limitées !
+
+**!! Attention: les inscriptions sont à faire sur le site d'EventBrite:** [https://www.eventbrite.com/e/wajug-programmer-et-controler-votre-camera-raspberry-pi3-tickets-27933614192](https://www.eventbrite.com/e/wajug-programmer-et-controler-votre-camera-raspberry-pi3-tickets-27933614192)
