@@ -9,9 +9,9 @@ meetup: 234343365
 ---
 **Assembler, programmer et contrôler sa propre caméra connectée!** Pour de la télésurveillance ou tout autre usage, c’est ce que vous propose le groupe WAJUG au travers d’un atelier sur le _Raspberry Pi 3 et la Pi Camera V2_ !
 
-Une séance au cours de laquelle vous aurez la chance d’apprendre les bases de la programmation d’une caméra IP. Celles-ci seront alors mises en oeuvre dans un labo pratique qui se terminera par l’installation d’un système complet permettant de contrôler la caméra au travers de nombreuses fonctionnalités, sans devoir écrire une seule ligne de code ! Aucun pré-requis en programmation n'est nécessaire. L'envie d'apprendre, et une bonne familiarité avec les ordinateurs sont plus importants.
+Une séance au cours de laquelle vous aurez la chance d’apprendre les bases de la programmation d’une caméra IP. Celles-ci seront alors mises en oeuvre dans un labo pratique qui se terminera par l’installation d’un système complet permettant de contrôler la caméra au travers de nombreuses fonctionnalités, sans devoir écrire une seule ligne de code ! Le seul prérequis demandé est que vous soyez familier avec les ordinateurs. Nous comptons sur votre soif d’apprendre pour rendre cette soirée la plus agréable qu’il soit.
 
-Tout le matériel nécessaire sera mis à votre disposition. En fonction du type de ticket que vous choisissez, vous aurez le choix de repartir avec votre propre kit. Le kit en question est composé d'un Raspberry Pi 3, de la Pi Noir Camera v2, d'un boîtier Raspberry Pi officiel, d'un chargeur secteur et d'une carte MicroSD 16Gb pré-chargée avec les logiciels que nous utiliserons. 
+Tout le matériel nécessaire sera mis à votre disposition. En fonction du type de ticket que vous choisissez, vous aurez le choix de repartir avec votre propre kit. Le kit en question est composé d'un Raspberry Pi 3, de la Pi Noir Camera v2, d'un boîtier Raspberry Pi officiel, d'un chargeur secteur et d'une carte MicroSD 16Gb pré-chargée avec les logiciels que nous utiliserons.
 
 ![alt text](/img/rpi3_post.jpg "Wajug RPI3")
 
