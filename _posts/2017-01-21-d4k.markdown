@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Apprendre aux enfants à programmer!"
+date:   2017-01-21 09:00
+author: The Wajug/Devoxx4Kids Team
+categories: talk
+location: <a href="http://www.isl.be/">A l'Institut Saint-Laurent EPS</a><br/>Rue Saint-Laurent, 33<br/>4000 Liège<br/><br/><a href="http://www.isl.be/contact/">Plan d'accès</a><br/>Possibilités de parking sur la droite en descendant la rue Saint-Laurent, juste après Saint-Laurent.
+meetup: 
+---
+**Wajug organise Devoxx4Kids Liège 2017, 4e édition**
+
+Pour la 4e année consécutive, le Wajug organise Devoxx4Kids Liège, un atelier d'initiation à la programmation et à la robotique destiné aux jeunes de 7 à 17 ans.
+
+_<center>"Vos enfants jouent à des jeux sur l'ordinateur.<br/> 
+Bientôt ils pourront faire leurs propres jeux!"</center>_
+
+Au cours de cet atelier, qui se déroulera le samedi 21 janvier 2017 à l'Institut Saint-Laurent de Liège, les enfants apprendront à créer leurs propres jeux, à programmer des robots, le tout de manière extrêmement ludique, encadrés par des animateurs pros.
+
+`Les inscriptions sont actuellement fermées et ouvriront courant décembre 2016. Au vu de l'engouement des autres années où nous avons été systématiquement complet en quelques jours, nous vous invitons à surveiller régulièrement cette page, et à nous suivre sur les réseaux sociaux: Meetup, Facebook, Twitter`
+
+Pour répondre à la demande et votre intérêt sans cesse croissant, cette nouvelle édition offrira plus d'ateliers et plus de places pour les enfants. Ceux-ci seront répartis dans 2 parcours différents, en fonction de leur âge et de leur niveau de familiarité avec le monde de la programmation et de la robotique.
+ 
+Mais n'ayez crainte, aucune connaissance préalable en informatique n'est nécessaire, c'est la motivation et l'envie d'apprendre qui priment. Et pour ceux qui n'en sont pas à leur première fois, nous avons prévu plusieurs nouveautés, mais c'est une surprise ;-)
+
+![Devoxx4Kids Image](/img/contents/d4k-2017.jpg)
+
+<h3>Qui?</h3>
+Ce stage s'adresse aux enfants de 7 à 17 ans.
+Aucune connaissance préalable en informatique n'est nécessaire, c'est la motivation et l'envie d'apprendre qui priment.
+
+<h3>Combien?</h3>
+10€ vous seront demandés en guise de participation aux frais, tels que assurances, snacks et boissons fournies pendant l'activité.
+
+<h3>Qui sommes-nous ?</h3>
+Le WAJUG est un groupe d’utilisateurs qui se rencontrent régulièrement en Wallonie pour partager leur passion: la programmation, et tout ce qui touche au développement de logiciels, applications, sites web, etc. Pour toutes vos questions et remarques, contactez-nous via les réseaux sociaux ([Twitter](https://twitter.com/wajug), [Facebook](https://www.facebook.com/wajug.be), [Meetup](http://www.meetup.com/wajug-be/)) ou par mail: <a href="mailto:info@wajug.be">info@wajug.be</a>
+
+<h3>Ambiance au <a href="http://www.devoxx4kids.org/">Devoxx4Kids</a></h3>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s-4QdJCQVCA" frameborder="0" allowfullscreen></iframe>

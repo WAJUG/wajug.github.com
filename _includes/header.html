@@ -1,89 +1,107 @@
-    <div class="snap-drawers">
-        <div class="snap-content">
-            <div class="snap--switch">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </div>
-            <header class="page__header"  role="banner">
-                <div class="wrap">
-                    <div class="page__headerBranding headerBranding">
-                        <h1 class="headerBranding__title">
-                            <a href="/"><img src="/img/logo.png" class="logo" width="400" alt="Wajug" /></a>
-                        </h1>
+<div class="snap-drawers">
+    <div class="snap-content">
+        <div class="snap--switch">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <header class="page__header" role="banner">
+            <div class="wrap">
+                <div class="page__headerBranding headerBranding">
+                    <h1 class="headerBranding__title">
+                        <a href="/"><img src="/img/logo.png" class="logo" width="400" alt="Wajug"/></a>
+                    </h1>
+                </div>
+
+                {% comment %} identify the next (upcoming) talk to refer to from the menu {% endcomment %}
+                {% capture currentTime %}{{'now' | date: '%s'}}{% endcapture %}
+                {% for post in site.posts reversed %}
+                {% capture postDate %}{{post.date | date: '%s'}}{% endcapture %}
+                {% if postDate >= currentTime %}
+                {% assign nextEvent = post %}
+                {% break %}
+                {% endif %}
+                {% endfor %}
+
+                <nav role="navigation" class="page__headerNavigation ">
+                    <div class="menu-menu-mobile-container">
+                        <ul id="menu-menu-mobile" class="mobile-menu">
+                            <li {% if
+                            '/index.html' == page.url or page.url == '/' %}class="current-menu-item"{% endif %}><a
+                                href="/">Accueil</a></li>
+                            {% comment %} show the event menu as active for any page that is about a talk/event {%
+                            endcomment %}
+                            <li {% if
+                            '/events' == page.url or page.url contains "/talk" %}class="current-menu-item"{% endif %}><a
+                                href="{{ nextEvent.url }}">Evénements</a></li>
+                            <li {% if
+                            '/d4k' == page.url %}class="current-menu-item"{% endif %}><a href="/talk/2017/d4k">Spécial
+                            enfants</a></li>
+                            {% comment %} temporary remove these pages from the menu
+                            <li {% if
+                            '/sponsoring' == page.url %}class="current-menu-item"{% endif %}><a href="/sponsoring">Sponsoring</a></li>
+                            {% endcomment %}
+                            <li {% if
+                            '/contact' == page.url %}class="current-menu-item"{% endif %}><a
+                                href="/contact">Contact</a></li>
+                        </ul>
                     </div>
+                </nav>
+                <ul class="events__authorSocialsMedia" style="top: -30px">
+                    <li class="events__authorSocialMedia">
+                        <a class="events__authorSocialMediaLink" href="http://meetup.com/wajug-be/">
+                            <img width="60" height="40" src="/img/meetup.png"/>
+                        </a>
+                    </li>
+                    <li class="events__authorSocialMedia">
+                        <a class="events__authorSocialMediaLink" href="http://twitter.com/wajug">
+                            <i class="fa fa-twitter fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="events__authorSocialMedia">
+                        <a class="events__authorSocialMediaLink" href="http://facebook.com/wajug.be">
+                            <i class="fa fa-facebook fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="events__authorSocialMedia">
+                        <a class="events__authorSocialMediaLink" href="https://www.linkedin.com/company/wajug">
+                            <i class="fa fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                    <li class="events__authorSocialMedia">
+                        <a class="events__authorSocialMediaLink" href="http://github.com/wajug">
+                            <i class="fa fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
 
-				{% comment %} identify the next (upcoming) talk to refer to from the menu {% endcomment %}
-				{% capture currentTime %}{{'now' | date: '%s'}}{% endcapture %}
-				{% for post in site.posts reversed  %}
-					{% capture postDate %}{{post.date | date: '%s'}}{% endcapture %}
-					{% if postDate >= currentTime %}
-						{% assign nextEvent  = post %}
-						{% break %}
-					{% endif %}
-					{% endfor %}
+        <main role="main" id="page--content">
+            <div class="snap-drawer snap-drawer-left">
+                <nav role="navigation">
+                    <h1 class="screenreader-only">
+                        Navigation mobile
+                    </h1>
+                    <div class="menu-menu-mobile-container">
+                        <ul id="menu-menu-mobile-1" class="mobile-menu">
 
-                    <nav role="navigation" class="page__headerNavigation ">
-                        <div class="menu-menu-mobile-container">
-							<ul id="menu-menu-mobile" class="mobile-menu">
-								<li {% if '/index.html' == page.url or page.url == '/' %}class="current-menu-item"{% endif %}><a href="/">Accueil</a></li>
-								{% comment %} show the event menu as active for any page that is about a talk/event {% endcomment %}
-								<li {% if '/events' == page.url or page.url contains "/talk" %}class="current-menu-item"{% endif %}><a href="{{ nextEvent.url }}">Evénements</a></li>
-								{% comment %} temporary remove these pages from the menu
-								<li {% if '/d4k' == page.url %}class="current-menu-item"{% endif %}><a href="/d4k">Spécial enfants</a></li>
-								<li {% if '/sponsoring' == page.url %}class="current-menu-item"{% endif %}><a href="/sponsoring">Sponsoring</a></li>
-								{% endcomment %}
-								<li {% if '/contact' == page.url %}class="current-menu-item"{% endif %}><a href="/contact">Contact</a></li>
-							</ul>
-						</div>
-					</nav>
-                    <ul class="events__authorSocialsMedia" style="top: -30px">
-							<li class="events__authorSocialMedia">
-                                <a class="events__authorSocialMediaLink" href="http://meetup.com/wajug-be/">
-									<img width="60" height="40" src="/img/meetup.png" />
-                                </a>
-                            </li>
-							<li class="events__authorSocialMedia">
-                                <a class="events__authorSocialMediaLink" href="http://twitter.com/wajug">
-									<i class="fa fa-twitter fa-2x"></i>
-                                </a>
-                            </li>
-							<li class="events__authorSocialMedia">
-                                <a class="events__authorSocialMediaLink" href="http://facebook.com/wajug.be">
-                                    <i class="fa fa-facebook fa-2x"></i>
-                                </a>
-                            </li>
-							<li class="events__authorSocialMedia">
-                                <a class="events__authorSocialMediaLink" href="https://www.linkedin.com/company/wajug">
-                                    <i class="fa fa-linkedin fa-2x"></i>
-                                </a>
-                            </li>
-                            <li class="events__authorSocialMedia">
-                                <a class="events__authorSocialMediaLink" href="http://github.com/wajug">
-                                    <i class="fa fa-github fa-2x"></i>
-                                </a>
-							</li>
-						</ul>
-                </div>
-            </header>
+                            <!--<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item menu-item-176"><a href="/">Accueil</a></li>-->
 
-            <main role="main" id="page--content" >
-                <div class="snap-drawer snap-drawer-left">
-                    <nav role="navigation">
-                        <h1 class="screenreader-only">
-                            Navigation mobile
-                        </h1>
-                        <div class="menu-menu-mobile-container">
-                          <ul id="menu-menu-mobile-1" class="mobile-menu">
+                            <li {% if
+                            '/index.html' == page.url or page.url == '/' %}class="menu-item menu-item-type-post_type
+                            menu-item-object-page current-menu-item page_item page-item-7 current_page_item
+                            menu-item-176 current-menu-item"{% endif %}><a href="/">Accueil</a></li>
 
-<!--<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item menu-item-176"><a href="/">Accueil</a></li>-->
-
-<li {% if '/index.html' == page.url or page.url == '/' %}class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7 current_page_item menu-item-176 current-menu-item"{% endif %}><a href="/">Accueil</a></li>
-
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a href="/events.html">Evénements</a></li>
-{% comment %} temporary remove these pages from the menu
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173"><a href="/kids/">Special enfants</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a href="/sponsoring/">Sponsoring</a></li>
-{% endcomment %}
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="/contact/">Contact</a></li>
-</ul></div>
-                    </nav>
-                </div>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a
+                                    href="/events.html">Evénements</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173"><a
+                                    href="/talk/2017/d4k">Special enfants</a></li>
+                            {% comment %} temporary remove these pages from the menu
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a
+                                    href="/sponsoring/">Sponsoring</a></li>
+                            {% endcomment %}
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a
+                                    href="/contact/">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
