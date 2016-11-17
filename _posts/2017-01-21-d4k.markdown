@@ -16,7 +16,7 @@ Bientôt ils pourront faire leurs propres jeux!"</center>_
 
 Au cours de cet atelier, qui se déroulera le samedi 21 janvier 2017 à l'Institut Saint-Laurent de Liège, les enfants apprendront à créer leurs propres jeux, à programmer des robots, le tout de manière extrêmement ludique, encadrés par des animateurs pros.
 
-<code>Les inscriptions sont actuellement fermées et ouvriront courant décembre 2016. Au vu de l'engouement des autres années où nous avons été systématiquement complet en quelques jours, nous vous invitons à surveiller régulièrement cette page, et à nous suivre sur les réseaux sociaux: <a href="http://www.meetup.com/wajug-be/">Meetup</a>, <a href="https://www.facebook.com/wajug.be">Facebook</a>, <a href="https://twitter.com/wajug">Twitter</a></code>
+<code>Les inscriptions ouvriront courant décembre 2016. Au vu de l'engouement des autres années où nous avons été systématiquement complet en quelques jours, nous vous invitons à surveiller régulièrement cette page, et à nous suivre sur les réseaux sociaux: <a href="http://www.meetup.com/wajug-be/">Meetup</a>, <a href="https://www.facebook.com/wajug.be">Facebook</a>, <a href="https://twitter.com/wajug">Twitter</a></code>
 
 Pour répondre à la demande et votre intérêt sans cesse croissant, cette nouvelle édition offrira plus d'ateliers et plus de places pour les enfants. Ceux-ci seront répartis dans 2 parcours différents, en fonction de leur âge et de leur niveau de familiarité avec le monde de la programmation et de la robotique.
  
