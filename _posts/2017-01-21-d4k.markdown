@@ -29,7 +29,7 @@ Ce stage s'adresse aux enfants de 7 à 17 ans.
 Aucune connaissance préalable en informatique n'est nécessaire, c'est la motivation et l'envie d'apprendre qui priment.
 
 <h3>Combien?</h3>
-10€ vous seront demandés en guise de participation aux frais, tels que assurances, snacks et boissons fournies pendant l'activité.
+10€ vous seront demandés en guise de participation aux frais, tels que assurances, snacks et boissons fournis pendant l'activité.
 
 <h3>Qui sommes-nous ?</h3>
 Le WAJUG est un groupe d’utilisateurs qui se rencontrent régulièrement en Wallonie pour partager leur passion: la programmation, et tout ce qui touche au développement de logiciels, applications, sites web, etc. Pour toutes vos questions et remarques, contactez-nous via les réseaux sociaux ([Twitter](https://twitter.com/wajug), [Facebook](https://www.facebook.com/wajug.be), [Meetup](http://www.meetup.com/wajug-be/)) ou par mail: <a href="mailto:info@wajug.be">info@wajug.be</a>
