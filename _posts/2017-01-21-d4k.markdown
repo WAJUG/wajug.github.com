@@ -1,12 +1,23 @@
 ---
 layout: post
-title:  "Apprendre aux enfants à programmer!"
+title:  "Construis ton futur !"
 date:   2017-01-21 09:00
 author: The Wajug/Devoxx4Kids Team
 categories: talk
 location: <a href="http://www.isl.be/">A l'Institut Saint-Laurent EPS</a><br/>Rue Saint-Laurent, 33<br/>4000 Liège<br/><br/><a href="http://www.isl.be/contact/">Plan d'accès</a><br/>Possibilités de parking sur la droite en descendant la rue Saint-Laurent, juste après Saint-Laurent.
 meetup: 
 ---
+Imagine un monde où l’énergie est propre et accessible de partout.
+Imagine un monde où les véhicules sont tous autonomes et nous transportent partout et en toute sécurité.
+Imagine un monde où les robots et les humains vivent et travaillent ensemble.
+Imagine un monde où chaque objet est intelligent et nous aide à mieux vivre.
+
+Ce futur est possible et il t’appartient de le construire !
+
+Et pour y arriver, il est important de comprendre la technologie d’aujourd’hui pour imaginer le monde de demain.
+
+Et toi, si tu construisais ton futur ?
+
 **Wajug organise Devoxx4Kids Liège 2017, 4e édition**
 
 Pour la 4e année consécutive, le Wajug organise Devoxx4Kids Liège, un atelier d'initiation à la programmation et à la robotique destiné aux jeunes de 7 à 17 ans.
@@ -20,7 +31,7 @@ Au cours de cet atelier, qui se déroulera le samedi 21 janvier 2017 à l'Instit
 
 Pour répondre à la demande et votre intérêt sans cesse croissant, cette nouvelle édition offrira plus d'ateliers et plus de places pour les enfants. Ceux-ci seront répartis dans 2 parcours différents, en fonction de leur âge et de leur niveau de familiarité avec le monde de la programmation et de la robotique.
  
-Mais n'ayez crainte, aucune connaissance préalable en informatique n'est nécessaire, c'est la motivation et l'envie d'apprendre qui priment. Et pour ceux qui n'en sont pas à leur première fois, nous avons prévu plusieurs nouveautés, mais c'est une surprise ;-)
+Mais n'ayez crainte, aucune connaissance préalable en informatique n'est nécessaire, c'est la motivation et l'envie d'apprendre qui priment. Et pour celles et ceux qui n'en sont pas à leur première fois, nous avons prévu plusieurs nouveautés, mais c'est une surprise ;-)
 
 ![Devoxx4Kids Image](/img/contents/d4k-2017.jpg)
 
