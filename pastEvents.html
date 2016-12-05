@@ -1,0 +1,93 @@
+---
+layout: default
+---
+<section id="page" class="page--accueil" data-page="accueil" aria-labelledby="fullpage-title">
+
+        <div class="events__intro ie8-background-size" style="background-image: url('/img/bg-evenement.jpg')">
+            <div class="wrap">
+                <h1 class="events__introTitle txt-center">
+                    Sessions précédentes
+                </h1>
+                <p class="events__introItems txt-center">
+                    Précédemment, nous avons eu le plaisir d'accueillir...
+                </p>
+            </div>
+        </div>
+
+    <div class="home__events">
+        <div class="wrap">
+            <h2 class="home__eventsTitle page__title">
+            </h2>
+			
+            {% comment %} only list past talks/events, not those in the future {% endcomment %}
+            {% capture currentTime %}{{'now' | date: '%s'}}{% endcapture %}
+            {% for post in site.posts %}
+            {% capture postDate %}{{post.date | date: '%s'}}{% endcapture %}
+            {% if postDate <= currentTime %}
+
+            <a href="{{ post.url }}" style="color:inherit;text-decoration:none;">
+                <article class="home__event">
+                    <div class="home__eventLeft">
+                        <time class="home__eventTime">
+                            <span>{{ post.date | date: "%-d %B %Y" }}</span>
+                            <span>{{ post.date | date: "%H:%M" }}</span>
+                        </time>
+                        <span class="home__eventauthor">
+                                	par {{ post.author }}
+    							</span>
+                    </div>
+                    <div class="home__eventRight">
+                        <h1 class="home__eventTitle">
+                            {{ post.title }}
+                        </h1>
+                        <div class="home__eventDesc">
+                            {{ post.excerpt | strip_html | truncatewords:35 }}
+                        </div>
+                        <a href="{{ post.url }}" class="home__eventLink">
+                            Lire la suite
+                        </a>
+                    </div>
+                </article>
+            </a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="home__socialMedia">
+        <div class="wrap">
+            <h2 class="page__title home__eventsTitle">Intéressé(e) ?</h2>
+            <p class="txt-center">
+                Venez à notre prochaine session, voyez notre programme et faites passer le message !
+            </p>
+            <ul>
+                <li class="home__socialMediaItem">
+                    <a class="home__socialMediaLink" href="http://meetup.com/wajug-be/" style="padding-top: 20px">
+                        <img width="90" height="60" src="/img/meetup-red.png"/>
+                    </a>
+                </li>
+                <li class="home__socialMediaItem">
+                    <a href="http://twitter.com/wajug" class="home__socialMediaLink ie8-background-size">
+                        <i class="fa fa-twitter"></i><span class="screenreader-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="home__socialMediaItem">
+                    <a href="http://facebook.com/wajug.be" class="home__socialMediaLink ie8-background-size">
+                        <i class="fa fa-facebook"></i><span class="screenreader-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="home__socialMediaItem">
+                    <a href="https://www.linkedin.com/company/wajug" class="home__socialMediaLink ie8-background-size">
+                        <i class="fa fa-linkedin"></i><span class="screenreader-only">LinkedIn</span>
+                    </a>
+                </li>
+                <li class="home__socialMediaItem">
+                    <a href="http://github.com/wajug" class="home__socialMediaLink ie8-background-size">
+                        <i class="fa fa-github"></i><span class="screenreader-only">Github</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
