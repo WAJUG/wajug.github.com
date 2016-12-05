@@ -1,6 +1,5 @@
-# new-wajug.github.com
-The new/future website of WAJUG.
-Work in progress.
+# wajug.github.com
+The website of WAJUG.
 Based on the courtesy work of eyaka.
 
 ## To test/run the site
