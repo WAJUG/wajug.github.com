@@ -4,7 +4,7 @@ title:  "CyberWar – Cyber Attaques et Ethical Hacking"
 date:   2016-12-15 18:30
 author: Frédéric De Pauw
 categories: talk
-location: TBD
+location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
 meetup: 235730943
 ---
 Le but de cette session est de comprendre les motivations, les opportunités et les méthodes dont disposent les cyber criminels pour mener à bien les cyber attaques. 
