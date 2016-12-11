@@ -7,16 +7,17 @@ categories: talk
 location: <a href="http://www.isl.be/">A l'Institut Saint-Laurent EPS</a><br/>Rue Saint-Laurent, 33<br/>4000 Liège<br/><br/><a href="http://www.isl.be/contact/">Plan d'accès</a><br/>Possibilités de parking sur la droite en descendant la rue Saint-Laurent, juste après Saint-Laurent.
 meetup: 
 ---
-Imagine un monde où l’énergie est propre et accessible de partout.
-Imagine un monde où les véhicules sont tous autonomes et nous transportent partout et en toute sécurité.
-Imagine un monde où les robots et les humains vivent et travaillent ensemble.
-Imagine un monde où chaque objet est intelligent et nous aide à mieux vivre.
+Imagine un monde où l’énergie respecte la nature.</br>
+Imagine un monde où les voitures nous transportent automatiquement où l'on veut et en toute sécurité.</br>
+Imagine un monde où l'on peut visiter et vivre sur d'autres planètes.</br>
+Imagine un monde où les humains et les robots communiquent et travaillent ensemble.</br>
+Imagine un monde où les objets sont intelligents et améliorent notre quotidien.
 
-Ce futur est possible et il t’appartient de le construire !
+Ce monde devient réel, mais il y a encore beaucoup de choses à faire.
 
-Et pour y arriver, il est important de comprendre la technologie d’aujourd’hui pour imaginer le monde de demain.
+Le Devoxx4Kids est là pour t'apprendre les bases de la programmation et de la robotique pour t'aider à imaginer le monde de demain.
 
-Et toi, si tu construisais ton futur ?
+Es-tu prêt à construire ton futur ?
 
 **Wajug organise Devoxx4Kids Liège 2017, 4e édition**
 
