@@ -15,7 +15,7 @@ Imagine un monde où les objets sont intelligents et améliorent notre quotidien
 
 Ce monde devient réel, mais il y a encore beaucoup de choses à faire.
 
-Le Devoxx4Kids est là pour t'apprendre les bases de la programmation et de la robotique pour t'aider à imaginer le monde de demain.
+Le Devoxx4Kids est là pour t'apprendre les bases de la programmation et de la robotique qui t'aideront à imaginer le monde de demain.
 
 Es-tu prêt à construire ton futur ?
 
