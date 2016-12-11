@@ -7,10 +7,10 @@ categories: talk
 location: <a href="http://www.isl.be/">A l'Institut Saint-Laurent EPS</a><br/>Rue Saint-Laurent, 33<br/>4000 Liège<br/><br/><a href="http://www.isl.be/contact/">Plan d'accès</a><br/>Possibilités de parking sur la droite en descendant la rue Saint-Laurent, juste après Saint-Laurent.
 meetup: 
 ---
-Imagine un monde où l’énergie respecte la nature.</br>
-Imagine un monde où les voitures nous transportent automatiquement où l'on veut et en toute sécurité.</br>
-Imagine un monde où l'on peut visiter et vivre sur d'autres planètes.</br>
-Imagine un monde où les humains et les robots communiquent et travaillent ensemble.</br>
+Imagine un monde où l’énergie respecte la nature.<br/>
+Imagine un monde où les voitures nous transportent automatiquement où l'on veut et en toute sécurité.<br/>
+Imagine un monde où l'on peut visiter et vivre sur d'autres planètes.<br/>
+Imagine un monde où les humains et les robots communiquent et travaillent ensemble.<br/>
 Imagine un monde où les objets sont intelligents et améliorent notre quotidien.
 
 Ce monde devient réel, mais il y a encore beaucoup de choses à faire.
