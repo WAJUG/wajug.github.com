@@ -24,6 +24,6 @@ __Et après__
 Merci de votre présence et pour votre participation active à cette session du Wajug.
 N'hésitez pas à réagir sur notre [Twitter](http://twitter.com/wajug) et/ou [Facebook](http://facebook.com/wajug.be).
 Les slides de cette présentation sont maintenant disponible en [suivant ce lien.](http://www.slideshare.net/wajug/wajug-cyber-war-cyber-attacks-and-ethical-hacking-frdric-de-pauw-decembre-2016)
-
+<br/><br/>
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/CLiOFI61tBTxWD" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/wajug/wajug-cyber-war-cyber-attacks-and-ethical-hacking-frdric-de-pauw-decembre-2016" title="Wajug: Cyber war, Cyber Attacks and Ethical Hacking - Frédéric de Pauw - Decembre 2016" target="_blank">Wajug: Cyber war, Cyber Attacks and Ethical Hacking - Frédéric de Pauw - Decembre 2016</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/wajug">wajug</a></strong> </div>
