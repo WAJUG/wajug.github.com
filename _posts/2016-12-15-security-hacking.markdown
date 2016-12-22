@@ -18,3 +18,9 @@ __A propos de Frédéric De Pauw__
 Frédéric De Pauw ([LinkedIn](https://be.linkedin.com/in/fdepauw)) est un expert en cyber sécurité spécialisé dans et surtout passionné par l’Ethical Hacking et la sécurité des opérations IT. 
 
 Frédéric travaille actuellement comme responsable de la sécurité IT chez Ethias, et est Ethical Hacker freelance pour différentes sociétés spécialisées dans la réalisation de tests d’intrusion type Red Team.
+
+__Et après__
+
+Merci de votre présence et pour votre participation active à cette session du Wajug.
+N'hésitez pas à réagir sur notre [Twitter](http://twitter.com/wajug) et/ou [Facebook](http://facebook.com/wajug.be).
+Les slides de cette présentation sont maintenant disponible en [suivant ce lien.](http://www.slideshare.net/wajug/wajug-cyber-war-cyber-attacks-and-ethical-hacking-frdric-de-pauw-decembre-2016)
