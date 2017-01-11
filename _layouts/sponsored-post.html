@@ -1,0 +1,93 @@
+---
+layout: default
+---
+    <section id="page" class="page--events" data-page="events" aria-labelledby="fullpage-title">
+
+        {% comment %} identify the next (upcoming) talk to refer to from the menu {% endcomment %}
+        {% capture currentTime %}{{'now' | date: '%s'}}{% endcapture %}
+        {% for post in site.posts reversed  %}
+            {% capture postDate %}{{post.date | date: '%s'}}{% endcapture %}
+            {% if postDate >= currentTime %}
+                {% assign nextEvent  = post %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+
+        <div class="events__intro ie8-background-size" style="background-image: url('/img/bg-evenement.jpg')">
+            <div class="wrap">
+                <h1 class="events__introTitle txt-center">
+                    Prochaine(s) session(s)
+                </h1>
+                <p class="events__introItems txt-center">
+                    Voici l'agenda de nos prochaines sessions. <br/>
+                    Revenez régulièrement sur cette page pour voir les mises à jour.
+                </p>
+            </div>
+        </div>
+
+        <section class="events__articles">
+            <div class="events__wrap wrap">
+
+				<aside class="events__sponsors">
+                    <h1 class="events__title">Merci à nos sponsors:</h1>
+					<ul>
+						<li><img src="/img/sponsors/devoxx4kids.png"/></li>
+						<li><img style="height: 160px; margin-left: 43px; padding-top:15px" src="/img/sponsors/isl.gif"/></li>
+						<li><img style="margin-left: -5px" src="/img/sponsors/fintro.png"/></li>
+						<li><img style="margin-left: -15px"src="/img/sponsors/yelido.png"/></li>
+						<!-- ><li><img src="/img/sponsors/noratek.png"</></li> -->
+						<li><img style="margin-left: -5px" src="/img/sponsors/arexo.png"</></li>
+					</ul>
+				</aside>
+
+
+                    <article class="events__article">
+                        <div class="events__articleContent">
+                            <h1 class="events__title" style="margin-right: 140px;">{{ page.title }}</h1>
+                            <div class="events__description">
+								{{ content }}
+                            </div>
+                        </div>
+
+                        <div class="events__moreInfos table">
+                                <div class="table-cell events__moreInfosItem">
+                                    <h3 class="events__moreInfosTitle">Où ?</h3>
+                                    <div class="events__moreInfosContent">
+										{{ page.location }}
+                                    </div>
+                                </div>
+                                <div class="table-cell events__moreInfosItem">
+                                    <h3 class="events__moreInfosTitle">Quand ?</h3>
+                                    <div class="events__moreInfosContent">
+										{% assign inputDate = page.date %}
+                                        {% include _translate_date.html %}
+
+                                        Le  {{ weekday_name }} {{ inputDate | date: "%-d" }} {{ month_name }},<br/>
+										à partir de  {{ inputDate | date: "%kh%M" }}
+                                    </div>
+                                </div>
+                        </div>
+
+                       <div class="events__moreInfos table">
+                                <div class="table-cell events__moreInfosItem">
+                                    <div class="events__moreInfosContentNoBorder">
+                                        <p style="margin-top: 30px" class="txt-center">
+                                            {% if page.meetup != null %}
+                                            <a href="http://www.meetup.com/wajug-be/events/{{ page.meetup }}" class="btn btn--blue">Inscrivez-vous!</a>
+                                            {% endif %}
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="table-cell events__moreInfosItem">
+                                    <div class="events__moreInfosContentNoBorder">
+                                        {% if page.share != false %}{% include _social-share.html %}{% endif %}
+                                    </div>
+                                </div>
+
+                        </div>
+
+                    </article>
+            </div>
+        </section>
+    </section>

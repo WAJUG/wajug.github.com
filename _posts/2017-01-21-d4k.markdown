@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: sponsored-post
 title:  "Construis ton futur !"
 date:   2017-01-21 09:00
 author: The Wajug/Devoxx4Kids Team
