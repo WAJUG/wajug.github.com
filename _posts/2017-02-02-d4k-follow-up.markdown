@@ -1,6 +1,6 @@
 ---
 layout: sponsored-post
-title:  "Devoxx4Kids Liege 2017 - Et après"
+title:  "Devoxx4Kids Liège 2017 - Et après"
 date:   2017-01-21 09:00
 author: The Wajug/Devoxx4Kids Team
 categories: talk
@@ -29,14 +29,26 @@ n'est pas ouvert, il faut cliquer sur « Conseils » en haut de la zone de jeu, 
 ### Sphero 
 Info à venir.
 
+
 ### NAO
-Info à venir.
+Sans le robot NAO, un peu difficile ;-)
+
+A titre d'information générale, voici quelques liens sur NAO et sur Chorégraphe, le logiciel utilisé lors de l'atelier pour programmer NAO:
+[http://www.devoxx4kids.org/materials/workshops/nao-robot/](http://www.devoxx4kids.org/materials/workshops/nao-robot/)
+[https://www.youtube.com/watch?v=NHQQvCpLnFU](https://www.youtube.com/watch?v=NHQQvCpLnFU)
+[http://doc.aldebaran.com/2-1/software/choregraphe/tutos/index.html](http://doc.aldebaran.com/2-1/software/choregraphe/tutos/index.html)
+
 
 ### Codebug
 Info à venir.
 
 ### Raspberry Pi et sa caméra
-Info à venir.
+Le support de cours utilisé au cours de la journée se trouve [ici](https://github.com/devoxx4kids/materials/raw/master/workshops/InternetOfThings/raspberrypi/fr/picamera/Devoxx4Kids_PiCamera_Workshop-FR.pptx).
+Il décrit le matériel utilisé, comment utiliser l'éditeur de code et exécuter le code source sur le Raspberry Pi.
+
+Le code en lui-même, écrit en Python, se trouve [ici](https://github.com/devoxx4kids/materials/tree/master/workshops/InternetOfThings/raspberrypi/fr/picamera).
+
+Pour info, comme matériel, nous avons utilisé le [Raspberry Pi 3 Modèle B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/), et la [caméra Pi version 2](https://www.raspberrypi.org/products/camera-module-v2/).
 
 ### Lego Mindstorms
 Info à venir.
