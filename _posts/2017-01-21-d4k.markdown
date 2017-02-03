@@ -30,11 +30,11 @@ Au cours de cet atelier, qui se déroulera le samedi 21 janvier 2017 à l'Instit
 
 <code>
 Cette session est terminée. 
-Votre accueil a été magistral et la journée magique. Merci à tous d'avoir contribuer à une telle réussite.
+Votre accueil a été magistral et la journée magique. Merci à tous d'avoir contribué à une telle réussite.
 Pour voir les photos de la journée, refaire les ateliers chez vous, etc. <a href="/talk/2017/d4k-follow-up">veuillez consulter cette page</a>.
 <br/> 
-Pour etre tenu au courant de nos prochaines activités, n'hésitez pas à nous suivre sur <a href="https://www.facebook.com/wajug.be">Facebook</a>, <a href="https://twitter.com/wajug">Twitter</a>, ou à nous communiquer votre adresse mail via la <a href="/contact">page de contact</a>. 
-Vous trouverez également les prochains évennements du Devoxx4Kids <a hre="http://www.devoxx4kids.org/events/">ici</a>.
+Pour être tenu au courant de nos prochaines activités, n'hésitez pas à nous suivre sur <a href="https://www.facebook.com/wajug.be">Facebook</a>, <a href="https://twitter.com/wajug">Twitter</a>, ou à nous communiquer votre adresse mail via la <a href="/contact">page de contact</a>. 
+Vous trouverez également les prochains événements du Devoxx4Kids <a hre="http://www.devoxx4kids.org/events/">ici</a>.
 </code>
  
 Pour répondre à la demande et votre intérêt sans cesse croissant, cette nouvelle édition offrira plus d'ateliers et plus de places pour les enfants. Ceux-ci seront répartis dans 2 parcours différents, en fonction de leur âge et de leur niveau de familiarité avec le monde de la programmation et de la robotique.

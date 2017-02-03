@@ -9,11 +9,11 @@ meetup:
 ---
 
 La [journée d'initiation à la programmation et à la robotique du 21/1](/talk/2017/d4k) est terminée. 
-Votre accueil a été magistral et la journée magique. Merci à tous d'avoir contribuer à une telle réussite.
+Votre accueil a été magistral et la journée magique. Merci à tous d'avoir contribué à une telle réussite.
 Les photos de la journée sont [ci-dessous](#photos).
  
-Pour etre tenu au courant de nos prochaines activités, n'hésitez pas à nous suivre sur [Facebook](https://www.facebook.com/wajug.be), [Twitter](https://twitter.com/wajug), ou à nous communiquer votre adresse mail via la [page de contact](/contact). 
-Vous trouverez également les prochains évennements du Devoxx4Kids [ici](http://www.devoxx4kids.org/events/).
+Pour être tenu au courant de nos prochaines activités, n'hésitez pas à nous suivre sur [Facebook](https://www.facebook.com/wajug.be), [Twitter](https://twitter.com/wajug), ou à nous communiquer votre adresse mail via la [page de contact](/contact). 
+Vous trouverez également les prochains événements du Devoxx4Kids [ici](http://www.devoxx4kids.org/events/).
 
 _Ces quelques notes qui suivent vous aideront à refaire les ateliers chez vous._
 
