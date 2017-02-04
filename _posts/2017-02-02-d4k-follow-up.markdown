@@ -34,7 +34,7 @@ Info à venir.
 ### NAO
 Sans le robot NAO, un peu difficile ;-)
 
-A titre d'information générale, voici quelques liens sur NAO et sur Chorégraphe, le logiciel utilisé lors de l'atelier pour programmer NAO:
+A titre d'information générale, voici quelques liens sur NAO et sur Chorégraphe, le logiciel utilisé pour programmer NAO lors de l'atelier:
 [http://www.devoxx4kids.org/materials/workshops/nao-robot/](http://www.devoxx4kids.org/materials/workshops/nao-robot/)
 [https://www.youtube.com/watch?v=NHQQvCpLnFU](https://www.youtube.com/watch?v=NHQQvCpLnFU)
 [http://doc.aldebaran.com/2-1/software/choregraphe/tutos/index.html](http://doc.aldebaran.com/2-1/software/choregraphe/tutos/index.html)
