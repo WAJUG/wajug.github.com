@@ -25,6 +25,7 @@ Le bouton bleu « voir à l'intérieur », permet de voir le « code source » d
 Pour débuter en Scratch, je recommande d'accéder à [l'éditeur en ligne](https://scratch.mit.edu/projects/editor/), et de cliquer dans le panneau d'aide sur « Prise en main de Scratch ». Si le panneau d'aide 
 n'est pas ouvert, il faut cliquer sur « Conseils » en haut de la zone de jeu, à côté de « Fichier, Edition».
 
+![scratch](/img/scratch-screenshot.png)
 
 ### Sphero 
 Info à venir.
