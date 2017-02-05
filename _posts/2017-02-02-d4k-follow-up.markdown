@@ -52,7 +52,26 @@ Le code en lui-même, écrit en Python, se trouve [ici](https://github.com/devox
 Pour info, comme matériel, nous avons utilisé le [Raspberry Pi 3 Modèle B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/), et la [caméra Pi version 2](https://www.raspberrypi.org/products/camera-module-v2/).
 
 ### Lego Mindstorms
-Info à venir.
+Aujourd'hui, les voitures autonomes sont une réalité. 
+
+Mais comment fonctionnent-elles et pourquoi sont-elles utiles ?
+
+C'est ce que nous avons vu ensemble durant l'atelier Lego Mindstorms EV3 qui nous a permis de comprendre le fonctionnement de base de ces voitures intelligentes et de programmer quelques-uns de ses comportements: se déplacer toute seule sur une piste, se parker, quitter le parking, reprendre la route.
+
+Si tu souhaites refaire le labo chez toi, rien de plus simple.
+Il te suffit de suivre les instructions disponibles ici: [Véhicule autonome avec Lego Mindstorms EV3](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/smart-car-EV3-fr.pdf)
+
+Les projets des différentes missions sont disponibles ici:
+* [Mission 1](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission01.ev3)
+* [Mission 2](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission02.ev3)
+* [Mission 3](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission03.ev3)
+* [Mission 4](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission04.ev3)
+* [Mission 5](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission05.ev3)
+* [Projet Final](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/smart-car.ev3)
+ 
+N'oublie d'installer le logiciel EV3 pour développer et tester tes programmes: [Logiciel EV3 pour PC et Mac](https://www.lego.com/fr-be/mindstorms/downloads/download-software).
+
+![Lego Mindstorms EV3](/img/lego_mindstorms_screenshot.jpg)
 
 ### Code Combat avancé
 Info à venir.
