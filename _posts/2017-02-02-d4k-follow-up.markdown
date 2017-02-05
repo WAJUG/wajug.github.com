@@ -62,12 +62,13 @@ Si tu souhaites refaire le labo chez toi, rien de plus simple.
 Il te suffit de suivre les instructions disponibles ici: [Véhicule autonome avec Lego Mindstorms EV3](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/smart-car-EV3-fr.pdf)
 
 Les projets des différentes missions sont disponibles ici:
-* [Mission 1](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission01.ev3)
-* [Mission 2](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission02.ev3)
-* [Mission 3](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission03.ev3)
-* [Mission 4](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission04.ev3)
-* [Mission 5](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission05.ev3)
-* [Projet Final](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/smart-car.ev3)
+
+- [Mission 1](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission01.ev3)
+- [Mission 2](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission02.ev3)
+- [Mission 3](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission03.ev3)
+- [Mission 4](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission04.ev3)
+- [Mission 5](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/mission05.ev3)
+- [Projet Final](https://github.com/WAJUG/d4k-wajug-mindstorms/raw/master/liege-21-jan-2017/solutions/smart-car.ev3)
  
 N'oublie d'installer le logiciel EV3 pour développer et tester tes programmes: [Logiciel EV3 pour PC et Mac](https://www.lego.com/fr-be/mindstorms/downloads/download-software).
 
