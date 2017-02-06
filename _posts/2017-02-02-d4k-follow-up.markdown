@@ -28,7 +28,10 @@ n'est pas ouvert, il faut cliquer sur « Conseils » en haut de la zone de jeu, 
 ![scratch](/img/scratch-screenshot.png)
 
 ### Sphero 
-Info à venir.
+Pour programmer Sphero, nous avons utilisé une application pour tablette iPad dénommée Tickle.
+Elle est [téléchargeable gratuitement sur l'Apple Store](https://itunes.apple.com/be/app/tickle-program-drones-robots/id1063639403?mt=8)
+Au cours de l'atelier, nous avons programmé aussi bien [Sphero](https://store.sphero.com/collections/sphero/products/sphero-2-0) que [BB-8](https://store.sphero.com/collections/bb-8-by-sphero/products/bb-8-by-sphero). Vous pouvez vous les procurer en magasin (par exemple Fnac, MediaMarkt, ...) ou en ligne, par exemple sur Amazon: [Sphero](https://www.amazon.fr/Sphero-2-0-App-Controlled-Robotique-Boule/dp/B00F35P69C/ref=sr_1_1?ie=UTF8&qid=1486379839&sr=8-1&keywords=sphero), [BB-8](https://www.amazon.fr/Sphero-Star-Wars-Jouet-Robot/dp/B0107H5FJ6/ref=sr_1_2?ie=UTF8&qid=1486379839&sr=8-2&keywords=sphero), [Sphero SPRK+](https://www.amazon.fr/Robot-interactif-multim%C3%A9dia-Orbotix-SPHERO/dp/B01GZ1S7OS/ref=sr_1_6?ie=UTF8&qid=1486379894&sr=8-6&keywords=sphero).
+Le support de cours pour apprendre à utiliser Sphero et Tickle est disponible [ici](https://github.com/WAJUG/d4k-wajug-sphero/raw/master/namur-08-oct-2016/devoxx4kids-namur2016-sphero-tickle-FR.pdf).
 
 
 ### NAO
