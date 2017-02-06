@@ -75,7 +75,9 @@ N'oublie pas d'installer le logiciel EV3 qui est requis pour développer et depl
 ![Lego Mindstorms EV3](/img/lego_mindstorms_screenshot.jpg)
 
 ### Code Combat avancé
-Info à venir.
+CodeCombat est accessible très simplement via un navigateur Internet, à cette adresse-ci: [https://codecombat.com](https://codecombat.com).
+Une fois la langue choisie, cliquez sur [Allons-y](https://codecombat.com/play).
+CodeCombat vous guidera progressivement de niveaux simples à des niveaux de plus en plus avancés.
 
 ### MIT App Inventor
 Info à venir.
