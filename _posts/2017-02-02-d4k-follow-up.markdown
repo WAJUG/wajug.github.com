@@ -83,7 +83,16 @@ Une fois la langue choisie, cliquez sur [Allons-y](https://codecombat.com/play).
 CodeCombat vous guidera progressivement de niveaux simples à des niveaux de plus en plus avancés.
 
 ### MIT App Inventor
-Info à venir.
+Tu souhaites développer ta propre application mobile pour Android ?
+
+Et bien c'est tout à fait possible grâce à la solution App Inventor développée par la prestigieuse université américaine du MIT.
+
+Durant notre labo, nous avons développé le jeu Pong4Kids.
+
+Si tu souhaites refaire ce jeu, il te suffit de suivre les missions décrites dans le document suivant: [Programme un jeu avec
+MIT App Inventor](https://github.com/WAJUG/d4k-wajug-appinventor/raw/master/Liege%202017/devoxx4kids-liege2017-MIT-appinventor.pdf)  
+
+![Pong4Kids](/img/appinventor_pong4kids.png)
 
 <a name="photos"></a>
 
