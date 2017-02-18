@@ -92,7 +92,7 @@ Durant notre labo, nous avons développé le jeu Pong4Kids.
 Si tu souhaites refaire ce jeu, il te suffit de suivre les missions décrites dans le document suivant: [Programme un jeu avec
 MIT App Inventor](https://github.com/WAJUG/d4k-wajug-appinventor/raw/master/Liege%202017/devoxx4kids-liege2017-MIT-appinventor.pdf)  
 
-![Pong4Kids](/img/appinventor_pong4kids.png)
+![Pong4Kids](/img/appinventor-pong4kids.png)
 
 <a name="photos"></a>
 
