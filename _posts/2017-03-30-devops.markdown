@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "DevOps : différents points de vue, mais le même objectif"
+date:   2017-03-30 18:00
+author: Demis Rizzotto, Julien Garcia Gonzales & Damien Duportal
+categories: talk
+location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
+meetup: 
+---
+__DevOps__, que ce cache derrière ce mot, comment les Dev l'interprètent et comment les Ops l'abordent. 
+Sur base d’exemples et de cas concrets, essayons de comprendre le travail de chacun, les bénéfices à en retirer et comment avancer dans la même direction, en identifiant les bonnes pratiques à adopter.
+
+Après cette première partie présentée par Demis Rizzotto, Julien Garcia Gonzalez et Damien Duportal feront un comparatif des solutions de Continuous Integration/ Continuous Delivery (CI/CD). A partir d'une application Java identique, ils nous montreront concrètement comment mettre en oeuvre le CI/CD avec Jenkins d'une part, et Gitlab CI d'autre part. Un comparatif des forces/faiblesses et sweet spots de chacune des plateformes est à l'agenda.
+
+__A propos de nos orateurs__
+
+
+*Damien DUPORTAL* is training Engineer @ CloudBees, where he drives the technical part of the trainings.
+Former DevOps Leader @ Atos Worldline, where he drove Docker adoption to break the silos, he also used to work with GIS platforms (French IGN Geoportal) of thousand users and Jenkins OSS inside.
+French living in Belgium ("French fries you said ?"), he likes to play with Raspberry Pi for Docker in the IoT World, and teaches High-Availability and GIS platforms in Engineering Schools.
+Human stack focused. Rock climber. Passionated. Talk to me!
+
+
