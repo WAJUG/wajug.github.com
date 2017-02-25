@@ -1,23 +1,39 @@
 ---
 layout: post
-title:  "DevOps : différents points de vue, mais le même objectif"
+title:  "DevOps : différents points de vue pour un objectif commun"
 date:   2017-03-30 18:00
 author: Demis Rizzotto, Julien Garcia Gonzales & Damien Duportal
 categories: talk
 location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
 meetup: 
 ---
-__DevOps__, que ce cache derrière ce mot, comment les Dev l'interprètent et comment les Ops l'abordent. 
-Sur base d’exemples et de cas concrets, essayons de comprendre le travail de chacun, les bénéfices à en retirer et comment avancer dans la même direction, en identifiant les bonnes pratiques à adopter.
+Qu’est-ce que __DevOps__ ?
 
-Après cette première partie présentée par Demis Rizzotto, Julien Garcia Gonzalez et Damien Duportal feront un comparatif des solutions de Continuous Integration/ Continuous Delivery (CI/CD). A partir d'une application Java identique, ils nous montreront concrètement comment mettre en oeuvre le CI/CD avec Jenkins d'une part, et Gitlab CI d'autre part. Un comparatif des forces/faiblesses et sweet spots de chacune des plateformes est à l'agenda.
+Est-ce un mindset, des outils, un rôle, une équipe ?<br/>
+Comment les devs l’interprètent ?<br/>
+Comment les ops l’abordent ?<br/>
+Comment les managers le comprennent ?<br/>
+
+Et vous, quand pensez-vous ?
+
+
+Le Wajug a l’immense plaisir d’accueillir 3 acteurs de terrain qui pensent, vivent et respirent DevOps.
+
+Sur base d’exemples et de cas concrets, nous allons comprendre ce qu’est être DevOps et comment insuffler cet état d’esprit au sein de votre organisation.
+
+Tout d’abord, Demis Rizzotto nous présentera des concrets d’utilisation qui aideront à mieux comprendre pourquoi le DevOps est un élément vital de votre organisation et comment l’appliquer concrètement.
+
+Ensuite, Damien Duportal et Julien Garcia nous feront un comparatif des solutions de Continuous Integration / Continuous Delivery (CI/CD). Sur base d'une même application développée en Java, Damien et Julien nous montreront comment mettre en oeuvre le CI/CD avec Jenkins d'une part, et Gitlab CI d'autre part.
+Un comparatif des forces/faiblesses et sweet spots de chacune des plateformes est à l'agenda.
+
+
+À l’issue de cette session, nous en saurons beaucoup plus sur l’esprit DevOps, le pragmatisme des solutions, la maturité des pratiques et l’ouverture d’esprit que cela implique de la part de chacun.
 
 __A propos de nos orateurs__
 
-
-*Damien DUPORTAL* is training Engineer @ CloudBees, where he drives the technical part of the trainings.
-Former DevOps Leader @ Atos Worldline, where he drove Docker adoption to break the silos, he also used to work with GIS platforms (French IGN Geoportal) of thousand users and Jenkins OSS inside.
-French living in Belgium ("French fries you said ?"), he likes to play with Raspberry Pi for Docker in the IoT World, and teaches High-Availability and GIS platforms in Engineering Schools.
+*Damien DUPORTAL* is training Engineer @ CloudBees, where he drives the technical part of the trainings.<br/>
+Former DevOps Leader @ Atos Worldline, where he drove Docker adoption to break the silos, he also used to work with GIS platforms (French IGN Geoportal) of thousand users and Jenkins OSS inside.<br/>
+French living in Belgium ("French fries you said ?"), he likes to play with Raspberry Pi for Docker in the IoT World, and teaches High-Availability and GIS platforms in Engineering Schools.<br/>
 Human stack focused. Rock climber. Passionated. Talk to me!
 
 
