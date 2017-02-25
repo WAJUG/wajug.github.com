@@ -2,7 +2,7 @@
 layout: post
 title:  "DevOps : différents points de vue pour un objectif commun"
 date:   2017-03-30 18:00
-author: Demis Rizzotto, Julien Garcia Gonzales & Damien Duportal
+author: Demis Rizzotto, Julien Garcia Gonzalez & Damien Duportal
 categories: talk
 location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
 meetup: 
