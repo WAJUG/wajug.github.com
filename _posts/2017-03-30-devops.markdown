@@ -31,6 +31,11 @@ Un comparatif des forces/faiblesses et sweet spots de chacune des plateformes es
 
 __A propos de nos orateurs__
 
+*Demis RIZZOTTO* is currently Operations engineer and DevOps evangelist at Lampiris.
+He develops and implements tools for infrastructure automation and monitoring solutions and helps IT architects and developer teams to design and build production ready systems, with a focus on security, monitoring and system integration.
+He evolved at Exxoss managing hosting platform and delivering small through to large scale IT custom solutions for different type of customers, like Online Casinos, E-Commerce and Lawyers offices.
+With a real obsession for automation and monitoring, he loves developing scripts and tools in python to learn how software works to know how he can optimize it.
+
 *Damien DUPORTAL* is training Engineer @ CloudBees, where he drives the technical part of the trainings.<br/>
 Former DevOps Leader @ Atos Worldline, where he drove Docker adoption to break the silos, he also used to work with GIS platforms (French IGN Geoportal) of thousand users and Jenkins OSS inside.<br/>
 French living in Belgium ("French fries you said ?"), he likes to play with Raspberry Pi for Docker in the IoT World, and teaches High-Availability and GIS platforms in Engineering Schools.<br/>
