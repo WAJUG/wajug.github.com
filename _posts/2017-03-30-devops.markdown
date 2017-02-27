@@ -5,7 +5,7 @@ date:   2017-03-30 18:30
 author: Demis Rizzotto, Julien Garcia Gonzalez & Damien Duportal
 categories: talk
 location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
-meetup: 
+meetup: 238002412
 ---
 Qu’est-ce que __DevOps__ ?
 
