@@ -41,4 +41,9 @@ Former DevOps Leader @ Atos Worldline, where he drove Docker adoption to break t
 French living in Belgium ("French fries you said ?"), he likes to play with Raspberry Pi for Docker in the IoT World, and teaches High-Availability and GIS platforms in Engineering Schools.<br/>
 Human stack focused. Rock climber. Passionated. Talk to me!
 
+*Julien GARCIA GONZALES* is a DevOps Facilitator @ Wemanity.<br/>
+Currently working as a developer @ Lampiris and helping DevOps mindset adoption in the different teams.<br/>
+Frictionless mindset, from development XP practice to release and deploy automation, passing by ephemeral and CI/CD environments, 
+he find his way in helping each others to as much productive as they could.<br/>
+Open-source lover, come by to discuss the new trendies tech!
 
