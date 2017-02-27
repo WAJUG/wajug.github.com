@@ -21,7 +21,7 @@ Le Wajug a l’immense plaisir d’accueillir 3 acteurs de terrain qui pensent, 
 
 Sur base d’exemples et de cas concrets, nous allons comprendre ce qu’est être DevOps et comment insuffler cet état d’esprit au sein de votre organisation.
 
-Tout d’abord, Demis Rizzotto nous présentera des concrets d’utilisation qui aideront à mieux comprendre pourquoi le DevOps est un élément vital de votre organisation et comment l’appliquer concrètement.
+Tout d’abord, Demis Rizzotto nous présentera des cas concrets d’utilisation qui aideront à mieux comprendre pourquoi le DevOps est un élément vital de votre organisation et comment l’appliquer concrètement.
 
 Ensuite, Damien Duportal et Julien Garcia Gonzales nous feront un comparatif des solutions de Continuous Integration / Continuous Delivery (CI/CD). Sur base d'une même application développée en Java, Damien et Julien nous montreront comment mettre en oeuvre le CI/CD avec Jenkins d'une part, et Gitlab CI d'autre part.
 Un comparatif des forces/faiblesses et sweet spots de chacune des plateformes est à l'agenda.
