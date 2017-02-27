@@ -14,7 +14,7 @@ Comment les devs l’interprètent ?<br/>
 Comment les ops l’abordent ?<br/>
 Comment les managers le comprennent ?<br/>
 
-Et vous, quand pensez-vous ?
+Et vous, qu'en pensez-vous ?
 
 
 Le Wajug a l’immense plaisir d’accueillir 3 acteurs de terrain qui pensent, vivent et respirent DevOps.
