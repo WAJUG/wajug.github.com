@@ -3,24 +3,14 @@ layout: default
 ---
     <section id="page" class="page--events" data-page="events" aria-labelledby="fullpage-title">
 
-        {% comment %} identify the next (upcoming) talk to refer to from the menu {% endcomment %}
-        {% capture currentTime %}{{'now' | date: '%s'}}{% endcapture %}
-        {% for post in site.posts reversed  %}
-            {% capture postDate %}{{post.date | date: '%s'}}{% endcapture %}
-            {% if postDate >= currentTime %}
-                {% assign nextEvent  = post %}
-                {% break %}
-            {% endif %}
-        {% endfor %}
-
         <div class="events__intro ie8-background-size" style="background-image: url('{{ page.headerImagePath | default: "/img/bg-evenement.jpg" }}')">
             <div class="wrap">
                 <h1 class="events__introTitle txt-center">
-                    Prochaine(s) session(s)
+                    {{ page.title }}
                 </h1>
                 <p class="events__introItems txt-center">
-                    Voici l'agenda de nos prochaines sessions. <br/>
-                    Revenez régulièrement sur cette page pour voir les mises à jour.
+					par {{ page.author }}<br/>
+					{{page.date | date: "%A %e %B %Y"}}<br/>
                 </p>
             </div>
         </div>
