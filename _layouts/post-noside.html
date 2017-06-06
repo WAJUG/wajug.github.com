@@ -3,16 +3,6 @@ layout: default
 ---
     <section id="page" class="page--events" data-page="events" aria-labelledby="fullpage-title">
 
-        {% comment %} identify the next (upcoming) talk to refer to from the menu {% endcomment %}
-        {% capture currentTime %}{{'now' | date: '%s'}}{% endcapture %}
-        {% for post in site.posts reversed  %}
-            {% capture postDate %}{{post.date | date: '%s'}}{% endcapture %}
-            {% if postDate >= currentTime %}
-                {% assign nextEvent  = post %}
-                {% break %}
-            {% endif %}
-        {% endfor %}
-
         <div class="events__intro ie8-background-size" style="background-image: url('/img/bg-evenement.jpg')">
             <div class="wrap">
                 <h1 class="events__introTitle txt-center">
@@ -21,45 +11,13 @@ layout: default
                 <p class="events__introItems txt-center">
 					par {{page.author}}<br/>
 					{{page.date | date: "%A %e %B %Y"}}<br/>
+					{{page.location}}
                 </p>
             </div>
         </div>
 
         <section class="events__articles">
             <div class="events__wrap wrap">
-                <aside class="events__aside">
-				{% comment %} only list upcoming talks/events, not those in the past {% endcomment %}
-				{% capture currentTime %}{{'now' | date: '%s'}}{% endcapture %}
-				{% for post in site.posts reversed %}
-					{% capture postDate %}{{post.date | date: '%s'}}{% endcapture %}
-					{% if postDate >= currentTime %}
-
-                        <article class="events__asideArticle">
-                            <a href="{{ post.url }}" {% if post.url == page.url %}class='active'{% endif %}>
-                                <h1 class="events__asideArticleTitle">
-   									{{ post.title }}
-                                </h1>
-                                <div class="events__asideArticleContent">
-                                    <p>
-                                        <strong class="events__asideArticleTime">
-                                            {% assign inputDate = post.date %}
-                                            {% include _translate_date.html %}
-
-                                            Le  {{ weekday_name }} {{ inputDate | date: "%-d" }} {{ month_name }},<br/>
-                                            à partir de  {{ inputDate | date: "%kh%M" }}
-                                        </strong>
-                                    </p>
-                                    <br/>
-                                    <span class="events__asideArticleSpeaker">
-                            	    	{{ post.author }}
-                                    </span>
-
-                                </div>
-                            </a>
-                        </article>
-						{% endif %}
-  				{% endfor %}
-                </aside>
 
                     <article class="events__article">
                         <div class="events__articleContent">
