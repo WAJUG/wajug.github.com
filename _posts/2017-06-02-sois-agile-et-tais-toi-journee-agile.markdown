@@ -5,7 +5,7 @@ date:   2017-06-02 9:00
 author: Said Eloudrhiri & Stephane Rondal 
 categories: talk
 location: Journee Agile, Charleroi
-meetup: 235730943
+headerImagePath: /img/home__hero.jpg
 ---
 Les slides de notre présentation à la [Journée Agile](https://www.journeeagile.be/salle-1/#session2).<br/>
 Merci à tous pour votre présence.<br/>
