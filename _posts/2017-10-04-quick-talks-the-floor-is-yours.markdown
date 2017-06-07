@@ -4,7 +4,7 @@ title:  "Quick Talks @WAJUG - The Floor Is Yours"
 date:   2017-10-04 18:30
 author: Vous!
 categories: talk
-location: Liege, TBD
+location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
 meetup: 240603599
 ---
 
