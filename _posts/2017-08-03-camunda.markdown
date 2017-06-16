@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "How to Avoid Workflows and Rules Nightmares using Open Source"
+date:   2017-08-03 18:30
+author: Niall Deehan
+categories: talk
+location: TBD
+meetup: 
+---
+
+Almost any business application implements workflows and rules in some form. However, most development teams struggle with this matter. Either projects “don’t need” an engine but afterwards find themselves slowly developing their own homegrown one ending up in maintenance hell or they purchase BPM suites from large vendors which follow “zero-code” approaches trying to get “rid of developers” and ignore all typical development best practices. This is a big bummer as there are well established standards in that field which really can help bring business users and developers closer together, during development or at runtime.
+ 
+This session talk will give an introduction into BPMN (a standard for process modelling and workflow automation) and DMN (for business rules and decision automation). We will demonstrate the“developer-friendly” approach to create models for business users. And we will enrich them with technical attributes and accompany them by code, executed by lightweight engines.
+We will use real world examples, a fun little hack-session and an in-depth discussions on the variety of possible architectures (ranging from“old-school 3-tier” to“hyped reactive microservices”) and point out benefits for the developer.
+We will use the open source platform Camunda and code examples that are available onGitHub.
+ 
+_This session will be in english._
+
+### About Niall
+
+Niall is a consultant at Camunda, where he specializes liaising with developers and technical analysts who are working on Camunda BPM projects. His particular focus is on helping customers to produce models which align with Camunda’s best practices. This includes helping customers understand the modeling options available for their use case and providing advice and examples accordingly.
+
+Niall has a Bachelor of Science in computer applications: software engineering, written extensively for Camunda, both as blog-post and white papers and speaks at conferences. 
+
+He speaks fluently English, passable Irish and stubbornly maintains very poor German.
+
