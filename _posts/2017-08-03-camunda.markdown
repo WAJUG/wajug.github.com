@@ -5,7 +5,7 @@ date:   2017-08-03 18:30
 author: Niall Deehan
 categories: talk
 location: TBD
-meetup: 
+meetup: 240837225
 ---
 
 Almost any business application implements workflows and rules in some form. However, most development teams struggle with this matter. Either projects “don’t need” an engine but afterwards find themselves slowly developing their own homegrown one ending up in maintenance hell or they purchase BPM suites from large vendors which follow “zero-code” approaches trying to get “rid of developers” and ignore all typical development best practices. This is a big bummer as there are well established standards in that field which really can help bring business users and developers closer together, during development or at runtime.
