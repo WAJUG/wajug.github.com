@@ -4,7 +4,7 @@ title:  "How to Avoid Workflows and Rules Nightmares using Open Source"
 date:   2017-08-03 18:30
 author: Niall Deehan
 categories: talk
-location: TBD
+location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
 meetup: 240837225
 ---
 
