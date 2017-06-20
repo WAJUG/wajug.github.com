@@ -8,7 +8,6 @@ location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
 meetup: 
 ---
 
-### Description
 
 Blockchain, Bitcoin, Ethereum, Smart contracts, IPFS, Swarm, public node, private node, Proof-of-Work, Proof-of-Stake, etc.
 
