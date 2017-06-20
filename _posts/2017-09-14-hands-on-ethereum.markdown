@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Hands-on Ethereum: développez votre Smart contract pour la blockchain"
-date:   2017-09-14 18:30
+date:   2017-09-14 17:45
 author: Said Eloudrhiri 
 categories: talk
 location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
-meetup: 
+meetup: 240933666
 ---
 
 
