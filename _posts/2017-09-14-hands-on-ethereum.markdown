@@ -15,7 +15,7 @@ Cette session vous permettra de décoder les informations qui circulent autour d
 
 Après avoir introduit les motivations, les concepts et les principaux cas d’usage de la blockchain, la session deviendra beaucoup plus pratique en vous permettant de construire un Smart contract.
 
-Cette session Hands-on s’appuiera sur la blockchain Ethereum et son environnement pour développer des applications distribuées (Dapp) articulées autour des Smart contracts. 
+Cette session Hands-on s’appuiera sur la blockchain Ethereum et son environnement pour développer des applications décentralisées (Dapp) articulées autour des Smart contracts. 
 
 ### Quel est le public cible ?
 
@@ -42,6 +42,7 @@ La partie théorique couvrira les sujets suivants :
 - Qu’entend-on par blockchain privée ou publique ?
 - Ce qu’est et n’est pas la blockchain
 - Qu’est-ce qu’un Smart contract ?
+- Qu’est-ce qu’une DApp (Decentralized Application) ?
 - Quels sont les différents cas d’usage de la blockchain ?
 
 La partie pratique abordera les thèmes suivants :
@@ -53,10 +54,10 @@ La partie pratique abordera les thèmes suivants :
 - Utilisation des Wallets Mist et Metamask  
 - Installation du framework de développement Truffle
 - Présentation du langage Solidity
-- Écriture d’un Dapp (Distributed Application) avec son interface web
+- Écriture d’une DApp (Decentralized Application): front-end + Smart Contract
 - Utilisation de IPFS pour le stockage des documents et des images 
-- Test de cette Dapp
-- Déploiement du Dapp
+- Test de cette DApp
+- Déploiement de la DApp
 
 **Il est recommandé de venir avec son laptop pour pouvoir installer tous les outils et développer le cas d’utilisation qui vous sera présenté.**
 
