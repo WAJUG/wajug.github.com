@@ -11,6 +11,14 @@ meetup: 240933666
 
 Blockchain, Bitcoin, Ethereum, Smart contracts, IPFS, Swarm, public node, private node, Proof-of-Work, Proof-of-Stake, etc.
 
+<code>
+Cette session est terminée. 
+<br/>Merci de votre présence et pour votre participation active à cette session du Wajug.
+N'hésitez pas à réagir sur notre <a href="https://twitter.com/wajug">Twitter</a> et/ou <a href="https://www.facebook.com/wajug.be">Facebook</a>.
+<br/>Le code du hands-on présenté et du projet "Resumeum" est ici: <a href='https://github.com/chainskills/resumeum'>https://github.com/chainskills/resumeum</a>
+<br/>Les slides de cette présentation sont maintenant disponible en <a href='https://www.slideshare.net/sarbogast/ethereum-for-visionary-dummies-76899047'>suivant ce lien</a>.
+</code>
+
 Cette session vous permettra de décoder les informations qui circulent autour de la blockchain pour vous aider à vous forger votre propre opinion et à entrevoir les nombreuses opportunités qu’offre cette nouvelle technologie.
 
 Après avoir introduit les motivations, les concepts et les principaux cas d’usage de la blockchain, la session deviendra beaucoup plus pratique en vous permettant de construire un Smart contract.
@@ -70,3 +78,5 @@ Avec Stéphane Rondal et les membres du comité du [Wajug](http://www.wajug.be),
 Avec Sébastien Arbogast, Said a créé [ChainSkills](http://chainskills.com), une initiative créée pour aborder les thèmes autour de la blockchain Ethereum. Sébastien et Said préparent une formation en ligne pour guider les développeurs à devenir des acteurs de la blockchain.
 
 Said est également speaker dans des conférences telles que Devoxx, Devoxx4Kids, La journée Agile ou le Wajug.
+
+
