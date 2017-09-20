@@ -28,6 +28,7 @@ Celle-ci doit contenir un descriptif (abstract) de votre présentation, ainsi qu
 
 ### Quand 
 Les **propositions de présentation** sont attendues pour le dimanche **1 octobre**.
+
 Les **présentations proprement dites** auront lieu le mercredi **4 octobre 18h30**.
 
 
