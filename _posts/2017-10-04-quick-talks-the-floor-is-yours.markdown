@@ -27,7 +27,7 @@ A vos propositions... => [info@wajug.be](mailto:info@wajug.be) <br/>
 Celle-ci doit contenir un descriptif (abstract) de votre présentation, ainsi qu'une brève bio des 2 orateurs.
 
 ### Quand 
-Les _propositions de présentation_ sont attendues pour le __dimanche 20 août__.
+Les _propositions de présentation_ sont attendues pour le __dimanche 1 novembre__.
 Les _présentations en elle-même_ auront lieu le mercredi __4 octobre 18h30__.
 
 
