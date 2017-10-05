@@ -5,7 +5,7 @@ date:   2017-11-20 18:30
 author: Danilo Poccia
 categories: talk
 location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
-meetup: 
+meetup: 243940065
 ---
 
 Have you always wanted to __add predictive capabilities or conversational interfaces to your application__, but haven’t been able to find the time or the right technology to get started? 
