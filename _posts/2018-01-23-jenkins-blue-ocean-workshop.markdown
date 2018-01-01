@@ -5,7 +5,7 @@ date:   2018-01-23 18:00
 author: Damien Duportal, Jean-Marc Meessen
 categories: talk
 location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
-meetup: 
+meetup: 246372369
 ---
 
 Précurseur des outils de CI/CD, Jenkins s'est récemment et remarquablement modernisé grâce à l'introduction de deux nouvelles fonctionnalités. 
@@ -15,7 +15,7 @@ L'interface graphique rénovée "Blue Ocean" est résolument orientée vers le d
 Lors de cet atelier, nous écrirons de zéro des pipelines déclaratifs dans Blue Ocean afin de parcourir les aspects marquants de cette métamorphose.
 
 Cette session est en fait un atelier pratique de 3h30. Les pré-requis vous seront transmis prochainement.
-Nous vous demanderons, via Meetup, 15€ de frais d'inscription. En contre-partie, boissons et nourriture (pizza) seront fournies pendant la séance.
+Nous vous demanderons, via Meetup, 12€ de frais d'inscription. En contre-partie, boissons et nourriture (pizza) seront fournis pendant la séance.
 
 Les inscriptions sont limitées au 30 premiers inscrits. 
 
