@@ -5,7 +5,7 @@ date:   2018-02-22 18:30
 author: Frederic Vandaele
 categories: talk
 location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
-meetup: 
+meetup: 247148239
 ---
 
 En préparation du "Liberating Structure Euro Tour 2018" qui passera par Bruxelles les 12 et 13 mars [(http://www.liberatingstructures.eu)](http://www.liberatingstructures.eu), nous sommes heureux de vous inviter à découvrir pour la première fois en Belgique et en français les Liberating Structures lors de cette session interactive du WAJUG. 
