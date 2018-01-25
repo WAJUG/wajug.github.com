@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A la découverte des Liberating Structures"
-date:   2018-02-22 18:30
+date:   2018-02-20 18:30
 author: Frederic Vandaele
 categories: talk
 location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
