@@ -21,21 +21,21 @@ Es-tu prêt à construire ton futur ?
 
 **Wajug organise Devoxx4Kids Liège 2018, 5e édition**
 
-Pour la 5e année consécutive, le Wajug organise Devoxx4Kids Liège, un atelier d'initiation à la programmation et à la robotique destiné aux jeunes de 10 à 15 ans.
+Pour la 5e année consécutive, le Wajug organise Devoxx4Kids Liège, un atelier d'initiation à la programmation et à la robotique destiné aux jeunes de 9 à 15 ans.
 
 _<center>"Vos enfants jouent à des jeux sur l'ordinateur.<br/> 
 Bientôt ils pourront faire leurs propres jeux!"</center>_
 
 <code>Les inscriptions ouvriront courant mars 2018. Au vu de l'engouement des autres années où nous avons été systématiquement complet en quelques jours, nous vous invitons à surveiller régulièrement cette page, et à nous suivre sur les réseaux sociaux: <a href="http://www.meetup.com/wajug-be/">Meetup</a>, <a href="https://www.facebook.com/wajug.be">Facebook</a>, <a href="https://twitter.com/wajug">Twitter</a></code>
 
-Au cours de cet atelier, qui se déroulera le samedi 28 janvier 2018 à l'Institut Saint-Laurent de Liège, les enfants apprendront à créer leurs propres jeux, à programmer des robots, le tout de manière extrêmement ludique, encadrés par des animateurs pros.
+Au cours de cet atelier, qui se déroulera le samedi 28 avril 2018 à l'Institut Saint-Laurent de Liège, les enfants apprendront à créer leurs propres jeux, à programmer des robots, le tout de manière extrêmement ludique, encadrés par des animateurs pros.
  
 Mais n'ayez crainte, aucune connaissance préalable en informatique n'est nécessaire, c'est la motivation et l'envie d'apprendre qui priment. Et pour celles et ceux qui n'en sont pas à leur première fois, nous avons prévu plusieurs nouveautés, mais c'est une surprise ;-)
 
 ![Devoxx4Kids Image](/img/contents/d4k-2017.jpg)
 
 <h3>Qui?</h3>
-Ce stage s'adresse aux enfants de 10 à 15 ans.
+Ce stage s'adresse aux enfants de 9 à 15 ans.
 Aucune connaissance préalable en informatique n'est nécessaire, c'est la motivation et l'envie d'apprendre qui priment.
 
 <h3>Combien?</h3>
