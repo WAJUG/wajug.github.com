@@ -26,7 +26,13 @@ Pour la 5e année consécutive, le Wajug organise Devoxx4Kids Liège, un atelier
 _<center>"Vos enfants jouent à des jeux sur l'ordinateur.<br/> 
 Bientôt ils pourront faire leurs propres jeux!"</center>_
 
+<div style="background-color: lightblue; width: 120%; margin-top: 25px; margin-bottom: 25px">
+	<script type="text/javascript" src="https://form.jotformeu.com/jsform/80613920217349"></script>
+</div>
+
+<!--
 <code>Les inscriptions ouvriront courant mars 2018. Au vu de l'engouement des autres années où nous avons été systématiquement complet en quelques jours, nous vous invitons à surveiller régulièrement cette page, et à nous suivre sur les réseaux sociaux: <a href="http://www.meetup.com/wajug-be/">Meetup</a>, <a href="https://www.facebook.com/wajug.be">Facebook</a>, <a href="https://twitter.com/wajug">Twitter</a></code>
+-->
 
 Au cours de cet atelier, qui se déroulera le samedi 28 avril 2018 à l'Institut Saint-Laurent de Liège, les enfants apprendront à créer leurs propres jeux, à programmer des robots, le tout de manière extrêmement ludique, encadrés par des animateurs pros.
  
