@@ -25,7 +25,7 @@ This session will be given in French
 
 David Lilien ([LinkedIn](https://www.linkedin.com/in/davidlilien/)) works with various companies, helping them creating user friendly digital experiences. Certified by Nielsen Norman Group in 2014, he is pationated by user research, information architecture and interaction design.
 
-He has previously worked at EVS Broadcast Equipment for 8 years. Originally as frontend software architect where he shared his time between UX, technical and organisational activities in order to build great user experiences.
+He has previously worked at EVS Broadcast Equipment for 8 years. Originally as frontend software architect, he shared his time between UX, technical and organisational activities in order to build great user experiences.
 
 ![David Lilien](/assets/creating-user-friendly-experiences/avatar.jpg)
 
