@@ -5,7 +5,7 @@ date:   2018-09-25 18:30
 author: David Lilien
 categories: talk
 location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
-meetup: 
+meetup: 252459624
 ---
 Nowadays user friendliness is a must have. In everything we use, we expect to be delighted, to find and use what we need easily.
 
