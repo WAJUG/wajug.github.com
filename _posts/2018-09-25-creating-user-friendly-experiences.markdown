@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Creating User Friendly Experiences"
-date:   2018-09-25 19:00
+date:   2018-09-25 18:30
 author: David Lilien
 categories: talk
-location: TBD
+location: LeanSquare<br/>Rue Chapelle des Clercs, 3<br/>4000 Liège
 meetup: 
 ---
 Nowadays user friendliness is a must have. In everything we use, we expect to be delighted, to find and use what we need easily.
