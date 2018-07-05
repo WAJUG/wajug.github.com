@@ -6,7 +6,7 @@ Based on the courtesy work of eyaka.
 
 * With Docker:
 ```
-docker run --rm -p 4000:4000 -v $(pwd):/srv/jekyll -ti jekyll/jeky jekyll serve
+docker run --rm -p 4000:4000 -v $(pwd):/srv/jekyll -ti jekyll/jekyll jekyll serve
 ```
 * OR
   - Install jekkyl.rb
